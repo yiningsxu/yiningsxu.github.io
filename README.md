@@ -1,96 +1,113 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# al-folio
 
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
+[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
+[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# Getting Started
+A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/al-folio/)
 
-See more info at https://academicpages.github.io/
+Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
+Since then, it got a full re-write of the styles and many additional cool features.
+The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/al-folio/).
 
-## Running locally
+## Getting started
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
-1. Clone the repository and made updates as detailed above.
+### Installation
 
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stoping and restarting Jekyll.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (_hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)_), first fork the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
-chmod -R 777 .
-docker compose up
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
 ```
 
-You should now be able to access the website from `localhost:4000`.
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
+Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
 
-### Using the DevContainer in VS Code
+```bash
+$ ./bin/deploy [--user]
+```
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
+Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
 
-# Maintenance
+**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+```
+url: # should be empty
+baseurl:  # should be empty
+```
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+### Usage
 
-## Bugfixes and enhancements
+Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+## Features
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+#### Ergonomic Publications
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+Your publications page is generated automatically from your BibTex bibliography.
+Simply edit `_bibliography/papers.bib`.
+You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
+
+#### Collections
+
+This Jekyll theme implements collections to let you break up your work into categories.
+The example is divided into news and projects, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
+
+> To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+
+Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the projects layout.
+The projects layout overlays a descriptive hoverover on a background image.
+If no image is provided, the square is auto-filled with the chosen theme color.
+Thumbnail sizing is not necessary, as the grid crops images perfectly.
+
+#### Theming
+
+Six beautiful theme colors have been selected to choose from.
+The default is purple, but quickly change it by editing `$theme-color` variable in the `_sass/variables.scss` file (line 72).
+Other color variables are listed there, as well.
+
+#### Photos
+
+Photo formatting is made simple using rows of a 3-column system.
+Make photos 1/3, 2/3, or full width.
+Easily create beautiful grids within your blog posts and projects pages:
+
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
+    <img src="assets/img/photos-screenshot.png" width="75%">
+  </a>
+</p>
+
+#### Code Highlighting
+
+This theme implements Jekyll's built in code syntax highlighting with Pygments.
+Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to delineate your code:
+
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/blog/2015/code/">
+    <img src="assets/img/code-screenshot.png" width="75%">
+  </a>
+</p>
+
+## Contributing
+
+Feel free to contribute new features and theme improvements by sending a pull request.
+Style improvements and bug fixes are especially welcome.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
