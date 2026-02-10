@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Yining S Xu
-email: ineikyos.gmail.com
+email: ineikyos@gmail.com
 description: > # this means to ignore newlines until "url:"
   Digital Scholarship and libraries.
 footer_text: >
@@ -15,7 +15,7 @@ last_updated: true # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: IneiHsu # your GitHub user name
+github_username: yiningsxu # your GitHub user name
 linkedin_username: yining-xu-8947051a1 # your LinkedIn user name
 scholar_userid: WkaNb-UAAAAJ&hl # your Google Scholar ID
 orcid_id: 0009-0005-5800-9627 # your ORCID ID
