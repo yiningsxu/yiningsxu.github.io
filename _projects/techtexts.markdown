@@ -3,6 +3,7 @@ layout: page
 title: Tech and Texts
 description: a workshop and seminar series at University of Michigan
 img:
+category: research
 ---
 
 [From the website](https://clarkdatalabs.github.io/techandtexts/fall2017):
