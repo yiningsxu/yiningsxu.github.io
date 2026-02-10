@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 permalink: /
 title: <strong>Yining</strong> Xu
 description: <a href=""></a>Kyoto, Japan
