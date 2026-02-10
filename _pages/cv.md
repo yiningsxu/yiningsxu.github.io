@@ -14,3 +14,4 @@ You can download a PDF copy of my CV here:
 ## Research Documents
 
 *   [Papers, Presentations, Joint Research, Grants (In Japanese)]({{ '/assets/pdf/research_open.pdf' | relative_url }})
+*   [researchmap](https://researchmap.jp/inei_yining)
