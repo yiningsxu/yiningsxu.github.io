@@ -23,11 +23,7 @@ My research interests lie in **Data Science** and **Child Maltreatment (Child Ab
 
 専門は**データサイエンス**および**児童虐待**です。データ駆動型のアプローチを用いて、児童福祉や感染症といった公衆衛生上の課題を解明し、解決することに注力しています。
 
-## Research Interests / 研究分野
-*   Data Science
-*   Child Maltreatment / Child Abuse
-*   Public Health
-
-*   データサイエンス
-*   児童虐待
-*   公衆衛生
+#### Research Interests / 研究分野
+*   Data Science / データサイエンス
+*   Child Maltreatment (Child Abuse) /児童虐待
+*   Public Health / 公衆衛生
