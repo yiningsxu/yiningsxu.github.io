@@ -9,8 +9,8 @@ nav_order: 4
 
 You can download a PDF copy of my CV here:
 
-*   [Curriculum Vitae]({{ '/assets/pdf/CV.pdf' | relative_url }})
+*   [Curriculum Vitae (Not Available Now)]({{ '/assets/pdf/CV.pdf' | relative_url }})
 
 ## Research Documents
 
-*   (Add more research documents here)
+*   [Papers, Presentations, Joint Research, Grants (In Japanese)]({{ '/assets/pdf/research_open.pdf' | relative_url }})
