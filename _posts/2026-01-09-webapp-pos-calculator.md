@@ -8,10 +8,10 @@ thumbnail: /assets/img/2026-01-09_poscalculator.png
 subcategory: hobbies
 ---
 
-![POS Calculator](/assets/img/2026-01-09_poscalculator.png){: width="300px"}
-
 <div id="english"></div>
 [English](#english) / [日本語](#japanese)
+
+![POS Calculator](/assets/img/2026-01-09_poscalculator.png){: width="300px"}
 
 ### I built a “[Smart POS Calculator](https://yiningsxu.github.io/pos_calculator/)” (mobile-first web app)
 I made a lightweight, mobile-first web app that turns a smartphone into a simple POS: a calculator plus customizable product buttons.<br>
