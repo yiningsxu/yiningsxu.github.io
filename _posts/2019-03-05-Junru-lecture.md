@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mathematic Lesson in Junru Primary School
+title: Mathematic Lesson in Junru Primary School in China
 date: 2019-03-05
 categories: blog
 tags: [Math, Outreach, Global Experience]

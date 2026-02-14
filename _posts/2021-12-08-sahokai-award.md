@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saho-kai Award
+title: Received an award for academic excellence. (Saho-kai Award, Nara Women's University)
 date: 2021-12-08
 categories: blog
 tags: [Award, scholarship]
@@ -8,10 +8,10 @@ thumbnail: /assets/img/2021-12-08_Sahokai.jpg
 subcategory: award
 ---
 
-![Saho-kai Award](/assets/img/2021-12-08_Sahokai.jpg){: width="300px"}
+![Saho-kai Award, Certificate of Award](/assets/img/2021-12-08_Sahokai.jpg){: width="300px"}
 
 ### Saho-kai Award
-Received Saho-kai Award for academic excellence.
+I received Saho-kai Award for academic excellence.
 
 Translation of the Japanese text shown in the image.
 > **CERTIFICATE OF AWARD** <br>
