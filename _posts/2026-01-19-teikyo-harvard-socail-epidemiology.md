@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finished a course in Social Epidemiology and received a certificate.(Harvard Special Session 2026, Teikyo University)
+title: Finished a course in Social Epidemiology and received a certificate. (Harvard Special Session 2026, Teikyo University)
 date: 2026-01-19
 categories: blog
 tags: [Social Epidemiology]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finished a course in Health Economics and received a certificate.(Harvard Special Session 2026, Teikyo University)
+title: Finished a course in Health Economics and received a certificate. (Harvard Special Session 2026, Teikyo University)
 date: 2026-01-15
 categories: blog
 tags: [Health Economics]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attend Intensive Abstract & Manuscript Workshop (Teikyo SPH, Hakone, 2026)
+title: Attend Intensive Abstract & Manuscript Workshop. (Teikyo SPH, Hakone, 2026)
 date: 2026-02-06
 categories: blog
 tags: [academic]
