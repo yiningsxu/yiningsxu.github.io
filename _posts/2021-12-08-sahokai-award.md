@@ -4,11 +4,11 @@ title: Saho-kai Award
 date: 2021-12-08
 categories: blog
 tags: [Award, scholarship]
-thumbnail: /assets/img/2021-12-08-sahokai-award.jpg
+thumbnail: /assets/img/2021-12-08_Sahokai.jpg
 subcategory: award
 ---
 
-![Saho-kai Award](/assets/img/2021-12-08-sahokai-award.jpg){: width="300px"}
+![Saho-kai Award](/assets/img/2021-12-08_Sahokai.jpg){: width="300px"}
 
 ### Saho-kai Award
 Received Saho-kai Award for academic excellence.
