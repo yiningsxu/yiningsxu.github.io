@@ -6,23 +6,17 @@ description: Detailed Curriculum Vitae
 nav: false
 ---
 
+### Name: Yining XU
 
+### Address: Kyoto University, Yoshida-honmachi, Sakyo-ku, Kyoto-shi, Kyoto, Japan. 606-8501 
 
----
-
-# Resume (detailed)
-
-Name: Yining XU
-
-Address: Kyoto University, Yoshida-honmachi, Sakyo-ku, Kyoto-shi, Kyoto, Japan. 606-8501 
-
-Email Address: ineikyos@gmail.com
+### Email Address: ineikyos@gmail.com
 
 ## Table of Contents
 * ToC
 {:toc}
 
-### **PROFILE**
+### PROFILE
 
 - Good at self-learning (Japanese, Programming, Machine learning, Public Health, Dental Health, etc.).
 - Have a strong passion for the well-being, clinical and medical field, and ardently want to help those in need, especially children with my knowledge.
@@ -32,7 +26,7 @@ Email Address: ineikyos@gmail.com
 
 Public Health, Data Science, Child Maltreatment, Maternal and Child Health, Well-being, …
 
-### **Education Experience**
+### Education Experience
 
 September 2005 – June 2011  **Jiashan Experimental Primary School**
 
@@ -55,7 +49,7 @@ Mathematic course, Department of Mathematical and Physical Sciences, Faculty of 
 
 April 2022 – Mar 2024 **Master’s-equivalent completion, Kyoto University,** Graduate School of Advanced Integrated Studies in Human Survivability (five-year doctoral program), 
 
-- **Master’s-equivalent (QE) Research | COVID-19 & Fertility (Japan, 2015–2022)**
+- **Master’s-equivalent (QE) Research: COVID-19 & Fertility (Japan, 2015–2022)**
     - Title: Factor Analysis of the COVID-19 Pandemic’s Impact on Japan’s Fertility Rate: Time-Series and Prefecture-Level Correlation Analyses Using Epidemic Waves and Economic Indicators (2015–2022)
     - Integrated Japanese vital statistics with COVID-19 case counts and prefectural economic indicators (e.g., per-capita income) and conducted seasonally adjusted time-series and regional comparative analyses. Identified a clear lagged association in which birth counts decreased significantly ~9 months after major epidemic waves (notably Waves 1, 4, and 6). Found that declines in per-capita prefectural income were significantly associated with reduced births, suggesting that economic shocks—beyond infection dynamics—contributed to fertility suppression and underscoring the importance of economic support during public health crises.
 
@@ -63,12 +57,12 @@ April 2024 – present  **Doctor of Philosophy, Kyoto University,** Graduate Sch
 
 **Major in Interdisciplinary Studies (Data Science, Public Health, Child Welfare, etc.)**
 
-- **Doctoral Research | Child Maltreatment Risk Screening via Dental & Lifestyle Data**
+- **Doctoral Research: Child Maltreatment Risk Screening via Dental & Lifestyle Data**
     - Title: Early Risk Estimation of Child Maltreatment Using Dental Checkup and Lifestyle Data: Model Development and Pathways to Implementation
     - Built an early screening model using integrated dental examination and lifestyle data from ~2,480 children in temporary protective custody. Focused on dental neglect indicators (caries, gingivitis, poor oral hygiene) as potential early signals of broader maltreatment subtypes. Applied statistical testing, multinomial logistic regression, and machine-learning methods (e.g., random forests) to capture nonlinear interactions and latent risk patterns, emphasizing interpretability (feature-importance visualization) to support practical use by dentists and child welfare professionals. Future work will expand to socioeconomic and household context variables and physical findings for more comprehensive risk profiling.
     
 
-### **Global Experience**
+### Global Experience
 
 April 2017 **Study abroad in Japan**
 
@@ -92,9 +86,9 @@ April 2017 **Study abroad in Japan**
 - Role: Held English lessons and introduce Chinese culture.
 - Listen to children introduce their school in English and introduce the university life of international students in English.
 
-## **Research Projects**
+## Research Projects
 
-### **Lead Research: Quantifying Child Maltreatment Risk through Multi-sector Data Integration**
+### Lead Research: Quantifying Child Maltreatment Risk through Multi-sector Data Integration
 
 **Aim:** Build quantitative evidence to support 
 
@@ -127,7 +121,7 @@ April 2017 **Study abroad in Japan**
 - **Scope:** Multi-center case aggregation to expand evidence on risk factors, clinical findings, responses, and outcomes.
 - **Objective:** Develop generalizable evidence including rare/complex cases that are difficult to capture in single-site studies.
 
-### **Collaborative Projects: Infectious Disease Epidemiology, Mathematical Modeling, and Measurement Analytics**
+### Collaborative Projects: Infectious Disease Epidemiology, Mathematical Modeling, and Measurement Analytics
 
 **Theme:** Quantify effectiveness and limitations of interventions for public health challenges via applied data analysis and methodological development.
 
@@ -173,7 +167,7 @@ April 2017 **Study abroad in Japan**
 - **Methods:** Feature extraction and modeling to estimate and visualize stress indicators.
 - **Translation:** Early risk detection and intervention design for occupational health (e.g., preventing burnout among clinicians/industrial workforce).
 
-## **Research Grants & Funding**
+## Research Grants & Funding
 
 **Innovative Strategies for Child Abuse Prevention: A Collaborative Study Integrating Dentistry, Machine Learning, and Child Guidance Services**
 
@@ -217,7 +211,7 @@ Innovative Strategies for Child Abuse Prevention: A Collaborative Study Integrat
 
 - **Funding Agency:** JST Support for Pioneering Research Initiated by the Next Generation (SPRING), Grant Number JPMJSP2110
 
-## **Working Experience**
+## Working Experience
 
 Nov 2018 – Dec 2020
 
