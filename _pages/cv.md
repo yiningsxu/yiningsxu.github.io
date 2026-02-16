@@ -9,7 +9,7 @@ nav_order: 4
 
 You can download a PDF copy of my CV here:
 
-*   [Curriculum Vitae (Not Available Now)]({{ '/assets/pdf/CV.pdf' | relative_url }})
+*   [Curriculum Vitae]({{ '/assets/pdf/cv.pdf' | relative_url }})(Last updated: 2026-02-17)
 
 ## Research Documents
 
