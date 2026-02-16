@@ -14,5 +14,5 @@ subcategory: academic
 #### 社会疫学, ハーバード特別講義2026, 帝京大学 修了
 
 Related links: <br>
-[Harvard Special Session 2026 (in Japanese)](https://www.teikyo-u.ac.jp/event/2025/0105)
-[Syllabus](https://www.teikyo-u.ac.jp/application/files/4217/6481/5871/poster_20260105_6.pdf)
+[Harvard Special Session 2026 (in Japanese)](https://www.teikyo-u.ac.jp/event/2025/0105)<br>
+[Syllabus](https://www.teikyo-u.ac.jp/application/files/4217/6481/5871/poster_20260105_6.pdf)<br>

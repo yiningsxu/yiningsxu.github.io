@@ -14,5 +14,5 @@ subcategory: academic
 #### 医療経済学, ハーバード特別講義2026, 帝京大学 修了
 
 Related links: <br>
-[Harvard Special Session 2026 (in Japanese)](https://www.teikyo-u.ac.jp/event/2025/0105)
-[Syllabus](https://www.teikyo-u.ac.jp/application/files/9217/6481/5871/poster_20260105_5.pdf)
+[Harvard Special Session 2026 (in Japanese)](https://www.teikyo-u.ac.jp/event/2025/0105)<br>
+[Syllabus](https://www.teikyo-u.ac.jp/application/files/9217/6481/5871/poster_20260105_5.pdf)<br>
