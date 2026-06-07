@@ -6,7 +6,7 @@ description: Curriculum Vitae
 lang: en
 ref: cv
 nav: true
-nav_order: 4
+nav_order: 5
 nav_label: CV
 ---
 
@@ -15,6 +15,7 @@ You can download a PDF copy of my CV here:
 *   [Curriculum Vitae (detailed)]({{ '/assets/pdf/cv.pdf' | relative_url }}) (Last updated: 2026-02-17)
 *   [Curriculum Vitae (concise)]({{ '/assets/pdf/cv_short.pdf' | relative_url }}) (not avaliable)
 *   [Curriculum Vitae (Web Version)]({{ '/cv/cv_detailed/' | relative_url }})
+*   [Research achievements (Web Version)]({{ '/achievements/' | relative_url }})
 
 ## Japanese Documents
 
