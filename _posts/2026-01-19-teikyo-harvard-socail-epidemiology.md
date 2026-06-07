@@ -6,6 +6,8 @@ categories: blog
 tags: [Social Epidemiology]
 thumbnail: /assets/img/2026-01-19_harvard_social_epidemiology.jpeg
 subcategory: academic
+lang: en
+ref: harvard-social-epidemiology
 ---
 
 ![Social Epidemiology, Harvard Special Session 2026, Certificate of Completion](/assets/img/2026-01-19_harvard_social_epidemiology.jpeg){: width="300px"}

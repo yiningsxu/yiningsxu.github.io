@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: An ongoing collection of projects.
-lang: en
+title: プロジェクト
+permalink: /ja/projects/
+description: 研究および個人プロジェクトの一覧です。
+lang: ja
 ref: projects
 nav: true
 nav_order: 2
-nav_label: Projects
+nav_label: プロジェクト
 ---
 
-## Research Projects
+## 研究プロジェクト
 
 <div class="projects-grid">
 {% for project in site.projects %}
@@ -24,7 +24,7 @@ nav_label: Projects
         <img class="thumbnail" src="{{ project.img | relative_url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
@@ -41,7 +41,7 @@ nav_label: Projects
         <img class="thumbnail" src="{{ project.img | relative_url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
@@ -56,7 +56,7 @@ nav_label: Projects
 {% endfor %}
 </div>
 
-## Personal Projects
+## 個人プロジェクト
 
 <div class="projects-grid">
 {% for project in site.projects %}
@@ -70,7 +70,7 @@ nav_label: Projects
         <img class="thumbnail" src="{{ project.img | relative_url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
@@ -87,7 +87,7 @@ nav_label: Projects
         <img class="thumbnail" src="{{ project.img | relative_url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>

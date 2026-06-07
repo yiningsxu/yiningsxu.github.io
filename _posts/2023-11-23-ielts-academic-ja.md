@@ -1,18 +1,20 @@
 ---
 layout: post
-title: Attained an IELTS Academic score of 7.0.
+title: IELTS AcademicでOverall 7.0を取得しました。
 date: 2023-11-23
 categories: blog
 tags: [ielts, english]
 thumbnail: /assets/img/ielts_score.jpg
 subcategory: academic
-lang: en
+lang: ja
 ref: ielts-academic
+permalink: /ja/blog/2023/ielts-academic/
 ---
 
 ![IELTS Score](/assets/img/ielts_score.jpg){: width="300px"}
 
-I attained an IELTS Academic score of 7.0.
+IELTS AcademicでOverall 7.0を取得しました。
+
 - Speaking: 7.5
 - Listening: 7.0
 - Reading: 7.0

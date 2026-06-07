@@ -6,6 +6,8 @@ categories: blog
 tags: [academic]
 thumbnail: /assets/img/2026-02-06_Teikyo_gasshuku.jpg
 subcategory: academic
+lang: en
+ref: teikyo-gasshuku
 ---
 
 ![Attend Intensive Abstract & Manuscript Workshop (Teikyo SPH, Hakone, 2026)](/assets/img/2026-02-06_Teikyo_gasshuku.jpg){: width="300px"}

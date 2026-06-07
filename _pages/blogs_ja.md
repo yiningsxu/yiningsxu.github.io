@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Blogs
-permalink: /blogs/
-description: Academic activities, experience, hobbies, and awards.
-lang: en
+title: 活動記録
+permalink: /ja/blogs/
+description: 学術活動、国際経験、個人制作、受賞・奨学金の記録です。
+lang: ja
 ref: blogs
 nav: true
 nav_order: 3
-nav_label: Blogs
+nav_label: 活動記録
 ---
 
 <style>
@@ -54,7 +54,7 @@ nav_label: Blogs
   }
 </style>
 
-## Academic Activities
+## 学術活動
 
 <div class="posts-grid">
   {% for post in site.posts %}
@@ -72,7 +72,7 @@ nav_label: Blogs
   {% endfor %}
 </div>
 
-## Global Experience
+## 国際経験
 
 <div class="posts-grid">
   {% for post in site.posts %}
@@ -90,7 +90,7 @@ nav_label: Blogs
   {% endfor %}
 </div>
 
-## Personal Hobbies
+## 個人制作
 
 <div class="posts-grid">
   {% for post in site.posts %}
@@ -108,7 +108,7 @@ nav_label: Blogs
   {% endfor %}
 </div>
 
-## Awards/Scholarships
+## 受賞・奨学金
 
 <div class="posts-grid">
   {% for post in site.posts %}

@@ -1,3 +1,12 @@
 <footer>
-  <div class="wrapper">{{ site.footer_text }} {% if site.last_updated %} Last updated: {{ site.last_updated }}. {% endif %}</div>
+  {% assign current_lang = page.lang | default: site.default_lang | default: 'en' %}
+  <div class="wrapper">
+    {% if current_lang == 'ja' %}
+      {{ site.footer_text_ja | default: site.footer_text }}
+      {% if site.last_updated %} 最終更新: {{ site.time | date: "%Y-%m-%d" }}.{% endif %}
+    {% else %}
+      {{ site.footer_text }}
+      {% if site.last_updated %} Last updated: {{ site.time | date: "%Y-%m-%d" }}.{% endif %}
+    {% endif %}
+  </div>
 </footer>

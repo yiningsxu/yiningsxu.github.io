@@ -6,6 +6,8 @@ categories: blog
 tags: [Nature Masterclasses]
 thumbnail: /assets/img/2025-01-15-Nature-Research-Academies-certificate.png
 subcategory: academic
+lang: en
+ref: nature-masterclasses
 ---
 
 ![Nature Masterclasses Expert Trainer-led workshop: Impressive Academic Presentations](/assets/img/2025-01-15-Nature-Research-Academies-certificate.png){: width="300px"}

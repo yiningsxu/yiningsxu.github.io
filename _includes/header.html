@@ -1,5 +1,28 @@
 <header class="site-header">
   <div class="wrapper">
+    {% assign current_lang = page.lang | default: site.default_lang | default: 'en' %}
+    {% assign page_ref = page.ref | default: 'about' %}
+    {% assign en_url = '/' %}
+    {% assign ja_url = '/ja/' %}
+    {% for item in site.pages %}
+      {% if item.ref == page_ref %}
+        {% if item.lang == 'en' %}{% assign en_url = item.url %}{% endif %}
+        {% if item.lang == 'ja' %}{% assign ja_url = item.url %}{% endif %}
+      {% endif %}
+    {% endfor %}
+    {% for item in site.posts %}
+      {% if item.ref == page_ref %}
+        {% if item.lang == 'en' %}{% assign en_url = item.url %}{% endif %}
+        {% if item.lang == 'ja' %}{% assign ja_url = item.url %}{% endif %}
+      {% endif %}
+    {% endfor %}
+    {% for item in site.projects %}
+      {% if item.ref == page_ref %}
+        {% if item.lang == 'en' %}{% assign en_url = item.url %}{% endif %}
+        {% if item.lang == 'ja' %}{% assign ja_url = item.url %}{% endif %}
+      {% endif %}
+    {% endfor %}
+
     {% if page.layout != "about" %}
     <span class="site-title">
       {% assign name = site.name | split: ' ' %}
@@ -23,18 +46,16 @@
       </label>
 
       <div class="trigger">
-        <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
+        {% assign nav_pages = site.pages | where: 'lang', current_lang | where: 'nav', true | sort: 'nav_order' %}
+        {% for nav_page in nav_pages %}
+        <a class="page-link{% if page.url == nav_page.url %} active{% endif %}" href="{{ nav_page.url | relative_url }}">{{ nav_page.nav_label | default: nav_page.title }}</a>
+        {% endfor %}
 
-        <!-- Blog -->
-        <!-- <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a> -->
-
-        <!-- Pages -->
-        {% for page in site.pages %} {% if page.title and page.url != "/" %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
-        {% endif %} {% endfor %}
-
-        </div>
+        <span class="language-switch" aria-label="Language selection">
+          <a class="language-option{% if current_lang == 'en' %} active{% endif %}" href="{{ en_url | relative_url }}" lang="en">EN</a>
+          <a class="language-option{% if current_lang == 'ja' %} active{% endif %}" href="{{ ja_url | relative_url }}" lang="ja">日本語</a>
+        </span>
+      </div>
     </nav>
   </div>
 </header>

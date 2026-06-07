@@ -3,6 +3,8 @@ layout: page
 permalink: /cv/cv_detailed/
 title: Detailed CV
 description: Detailed Curriculum Vitae
+lang: en
+ref: cv_detailed
 nav: false
 ---
 

@@ -6,6 +6,8 @@ categories: blog
 tags: [Health Economics]
 thumbnail: /assets/img/2026-01-15_harvard_health_economics.jpeg
 subcategory: academic
+lang: en
+ref: harvard-health-economics
 ---
 
 ![Health Economics, Harvard Special Session 2026, Certificate of Completion](/assets/img/2026-01-15_harvard_health_economics.jpeg){: width="300px"}

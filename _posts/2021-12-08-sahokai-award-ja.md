@@ -1,21 +1,23 @@
 ---
 layout: post
-title: Received an award for academic excellence. (Saho-kai Award, Nara Women's University)
+title: 奈良女子大学 佐保会奨学金を受賞しました。
 date: 2021-12-08
 categories: blog
 tags: [Award, scholarship]
 thumbnail: /assets/img/2021-12-08_Sahokai.jpg
 subcategory: award
-lang: en
+lang: ja
 ref: sahokai-award
+permalink: /ja/blog/2021/sahokai-award/
 ---
 
-![Saho-kai Award, Certificate of Award](/assets/img/2021-12-08_Sahokai.jpg){: width="300px"}
+![佐保会奨学金 表彰状](/assets/img/2021-12-08_Sahokai.jpg){: width="300px"}
 
-### Saho-kai Award
-I received Saho-kai Award for academic excellence.
+### 佐保会奨学金
 
-Translation of the Japanese text shown in the image.
+学業成績優秀者として、奈良女子大学の佐保会奨学金を受賞しました。
+
+画像内の日本語本文の英訳:
 > **CERTIFICATE OF AWARD** <br>
 > To: **Yining Xu** <br>
 > Nara Women’s University (National University Corporation) <br>
@@ -25,6 +27,6 @@ Translation of the Japanese text shown in the image.
 > December 8, 2021 <br>
 > The Saho-kai (General Incorporated Association)
 
-Related links: <br>
-[佐保会(Saho-kai)](https://www.nara-wu.ac.jp/dousoukai/sahokai/)<br>
-[佐保会奨学金(Saho-kai Award/Scholarship)](https://www.nara-wu.ac.jp/dousoukai/sahokai/ivents01.html#:~:text=佐保会奨学金,-昭和33（1958)<br>
+関連リンク: <br>
+[佐保会](https://www.nara-wu.ac.jp/dousoukai/sahokai/)<br>
+[佐保会奨学金](https://www.nara-wu.ac.jp/dousoukai/sahokai/ivents01.html#:~:text=佐保会奨学金,-昭和33（1958)<br>
