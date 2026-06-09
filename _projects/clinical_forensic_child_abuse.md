@@ -5,7 +5,7 @@ description: Retrospective collaborative study evaluating abuse assessment pathw
 category: research
 lang: en
 ref: clinical_forensic_child_abuse
-img:
+img: /assets/img/research_clinical_forensic_child_abuse.png
 ---
 
 ## Clinical Forensic Assessment of Child Abuse

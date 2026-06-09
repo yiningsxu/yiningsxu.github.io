@@ -5,7 +5,7 @@ description: Collaborative study on child abuse response and educational interve
 category: research
 lang: en
 ref: child_abuse_response_education
-img:
+img: /assets/img/research_child_abuse_response_education.png
 ---
 
 ## Child Abuse Response and Educational Intervention

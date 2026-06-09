@@ -5,7 +5,7 @@ description: Multi-institutional study quantifying links between oral health cha
 category: research
 lang: en
 ref: oral_health_maltreatment
-img:
+img: /assets/img/research_oral_health_maltreatment.png
 ---
 
 ## Oral Health and Maltreatment Classification
