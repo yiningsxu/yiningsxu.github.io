@@ -3,7 +3,7 @@ layout: about
 permalink: /ja/
 title: <strong>Yining</strong> Xu
 description: <a href=""></a>京都, 日本
-summary: 公衆衛生、児童福祉、デジタルスカラーシップのためのデータサイエンス。
+summary: 公衆衛生、児童福祉、母子保健のためのデータサイエンス。
 lang: ja
 ref: about
 nav: true

@@ -3,7 +3,7 @@ layout: about
 permalink: /
 title: <strong>Yining</strong> Xu
 description: <a href=""></a>Kyoto, Japan
-summary: Data science for public health, child welfare, and digital scholarship.
+summary: Data science for public health, child welfare, and maternal and child health.
 lang: en
 ref: about
 nav: true
