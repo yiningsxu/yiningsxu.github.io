@@ -6,5 +6,5 @@ redirect: https://github.com/yiningsxu/pos_calculator
 category: personal
 lang: ja
 ref: pos_calculator
-img:
+img: /assets/img/POS_screenshot.png
 ---
