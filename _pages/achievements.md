@@ -23,14 +23,14 @@ nav_label: Achievements
 
 ### Under Review
 
+#### Child Maltreatment
+
+- (First author) **Xu YS**, et al. **Oral health differences across maltreatment categories among children in temporary protection facilities in Japan: a retrospective cross-sectional study.** *BMC Public Health*.
+
 #### Infectious Diseases
 
 - (Second author) Tu S, **Xu YS**, et al. (2026). **Information sources, vaccine literacy, and intention to receive a COVID-19 booster dose: a cross-sectional online survey in Okinawa, Japan.** *Vaccine: X*.
 - (Second author) Kozuka M, **Xu YS**, et al. (2026). **Traveler-Derived Importation Risk Underestimates Regional Disease Activity: Evidence from Okinawa, Japan.** *Journal of Infection and Public Health*.
-
-#### Child Maltreatment
-
-- (First author) **Xu YS**, et al. **Oral health differences across maltreatment categories among children in temporary protection facilities in Japan: a retrospective cross-sectional study.** *BMC Public Health*.
 
 ### Manuscripts in Preparation
 

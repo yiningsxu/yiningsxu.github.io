@@ -3,6 +3,7 @@ layout: page
 title: 児童虐待対応と教育的介入
 description: 消防職員・病院救命士・救急救命士学生の児童虐待対応と教育的介入の影響を検討する共同研究です。
 category: research
+research_area: child_welfare
 lang: ja
 ref: child_abuse_response_education
 img: /assets/img/research_child_abuse_response_education.png

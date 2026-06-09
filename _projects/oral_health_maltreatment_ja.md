@@ -3,6 +3,7 @@ layout: page
 title: 一時保護児の口腔内状況と虐待分類
 description: 一時保護児の口腔内状況の特徴と虐待分類の関連を定量化する多機関共同研究です。
 category: research
+research_area: child_welfare
 lang: ja
 ref: oral_health_maltreatment
 img: /assets/img/research_oral_health_maltreatment.png

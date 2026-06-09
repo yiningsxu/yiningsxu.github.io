@@ -3,6 +3,7 @@ layout: page
 title: Oral Health and Maltreatment Classification
 description: Multi-institutional study quantifying links between oral health characteristics and maltreatment categories among children in temporary protection.
 category: research
+research_area: child_welfare
 lang: en
 ref: oral_health_maltreatment
 img: /assets/img/research_oral_health_maltreatment.png

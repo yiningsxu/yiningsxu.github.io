@@ -3,6 +3,7 @@ layout: page
 title: 臨床法医学での虐待評価
 description: 臨床法医学を用いた虐待評価プロセスを後方視的に検討する共同研究です。
 category: research
+research_area: child_welfare
 lang: ja
 ref: clinical_forensic_child_abuse
 img: /assets/img/research_clinical_forensic_child_abuse.png

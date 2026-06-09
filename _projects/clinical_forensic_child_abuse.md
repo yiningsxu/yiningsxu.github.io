@@ -3,6 +3,7 @@ layout: page
 title: Clinical Forensic Assessment of Child Abuse
 description: Retrospective collaborative study evaluating abuse assessment pathways using clinical forensic medicine.
 category: research
+research_area: child_welfare
 lang: en
 ref: clinical_forensic_child_abuse
 img: /assets/img/research_clinical_forensic_child_abuse.png

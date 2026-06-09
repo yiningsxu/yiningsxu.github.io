@@ -3,6 +3,7 @@ layout: page
 title: Child Abuse Response and Educational Intervention
 description: Collaborative study on child abuse response and educational intervention among firefighters, hospital paramedics, and paramedic students.
 category: research
+research_area: child_welfare
 lang: en
 ref: child_abuse_response_education
 img: /assets/img/research_child_abuse_response_education.png

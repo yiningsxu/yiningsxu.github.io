@@ -23,14 +23,14 @@ nav_label: 業績
 
 ### 査読中
 
+#### 児童虐待関連
+
+- （筆頭著者）**Xu YS**, et al. **Oral health differences across maltreatment categories among children in temporary protection facilities in Japan: a retrospective cross-sectional study.** *BMC Public Health*.
+
 #### 感染症関連
 
 - （第二著者）Tu S, **Xu YS**, et al. (2026). **Information sources, vaccine literacy, and intention to receive a COVID-19 booster dose: a cross-sectional online survey in Okinawa, Japan.** *Vaccine: X*.
 - （第二著者）Kozuka M, **Xu YS**, et al. (2026). **Traveler-Derived Importation Risk Underestimates Regional Disease Activity: Evidence from Okinawa, Japan.** *Journal of Infection and Public Health*.
-
-#### 児童虐待関連
-
-- （筆頭著者）**Xu YS**, et al. **Oral health differences across maltreatment categories among children in temporary protection facilities in Japan: a retrospective cross-sectional study.** *BMC Public Health*.
 
 ### 執筆中
 
