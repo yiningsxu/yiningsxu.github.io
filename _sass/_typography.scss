@@ -4,7 +4,7 @@ html {
 
 body {
   color: $text-color;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 abbr {
@@ -13,8 +13,8 @@ abbr {
 }
 
 p {
-  color: #333;
-  line-height: 1.5;
+  color: $text-color;
+  line-height: 1.7;
 }
 
 small,
@@ -34,7 +34,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 100;
+  color: $dark-gray;
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  letter-spacing: 0;
+  line-height: 1.15;
+}
+
+article,
+.post-content {
+  li {
+    line-height: 1.65;
+    margin-bottom: 0.35rem;
+  }
+
+  strong {
+    color: $dark-gray;
+    font-weight: 700;
+  }
 }
 
 div.equation {

@@ -19,9 +19,9 @@ nav_label: Projects
 {% if project.redirect %}
 <div class="project">
     <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
+        <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | relative_url }}"/>
+        <img class="thumbnail" src="{{ project.img | relative_url }}" alt="{{ project.title }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
@@ -38,7 +38,7 @@ nav_label: Projects
     <div class="thumbnail">
         <a href="{{ project.url | relative_url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | relative_url }}"/>
+        <img class="thumbnail" src="{{ project.img | relative_url }}" alt="{{ project.title }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
@@ -65,9 +65,9 @@ nav_label: Projects
 {% if project.redirect %}
 <div class="project">
     <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
+        <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | relative_url }}"/>
+        <img class="thumbnail" src="{{ project.img | relative_url }}" alt="{{ project.title }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
@@ -84,7 +84,7 @@ nav_label: Projects
     <div class="thumbnail">
         <a href="{{ project.url | relative_url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | relative_url }}"/>
+        <img class="thumbnail" src="{{ project.img | relative_url }}" alt="{{ project.title }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    

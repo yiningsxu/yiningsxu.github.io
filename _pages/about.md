@@ -3,6 +3,7 @@ layout: about
 permalink: /
 title: <strong>Yining</strong> Xu
 description: <a href=""></a>Kyoto, Japan
+summary: Data science for public health, child welfare, and digital scholarship.
 lang: en
 ref: about
 nav: true
@@ -23,8 +24,3 @@ social: true
 I am a Ph.D. student at the GSAIS, **Kyoto University**, and a Special Researcher at the Graduate School of Public Health, **Teikyo University**.
 
 My research interests lie in **Data Science** and **Child Maltreatment (Child Abuse)**. I focus on using data-driven approaches to understand and address public health challenges, particularly in the context of child welfare and infectious diseases.
-
-#### Research Interests
-*   Data Science
-*   Child Maltreatment (Child Abuse)
-*   Public Health

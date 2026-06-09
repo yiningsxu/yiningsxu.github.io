@@ -10,50 +10,6 @@ nav_order: 3
 nav_label: 活動記録
 ---
 
-<style>
-  .posts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    margin-bottom: 40px;
-  }
-  .post-card {
-    border: 1px solid #eee;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    background: #fff;
-    transition: transform 0.2s;
-  }
-  .post-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  .post-thumbnail {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  .post-title {
-    font-size: 1.0em;
-    font-weight: bold;
-    margin-bottom: 5px;
-    line-height: 1.3;
-  }
-  .post-title a {
-    text-decoration: none;
-    color: #333;
-  }
-  .post-date {
-    font-size: 0.85em;
-    color: #777;
-    display: block;
-    margin-top: 5px;
-  }
-</style>
-
 ## 学術活動
 
 <div class="posts-grid">

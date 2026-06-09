@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.default_lang | default: 'en' }}">
   {% include head.html %}
 
-  <body>
+  <body class="layout-{{ page.layout | default: 'default' }} lang-{{ page.lang | default: site.default_lang | default: 'en' }}">
     {% include header.html %}
 
     <div class="page-content">

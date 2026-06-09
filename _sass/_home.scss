@@ -1,0 +1,390 @@
+.home-shell {
+  display: grid;
+  gap: 4.4rem;
+}
+
+.home-hero {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1.12fr) minmax(260px, 0.88fr);
+  min-height: calc(100dvh - 150px);
+  padding: 1.4rem 0 2.4rem;
+}
+
+.home-hero__copy {
+  max-width: 680px;
+}
+
+.home-kicker {
+  color: $theme-color;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
+
+.home-title {
+  color: $dark-gray;
+  font-size: 6.2rem;
+  line-height: 0.95;
+  margin: 0;
+
+  strong {
+    color: $theme-color;
+    font-weight: 800;
+  }
+}
+
+.home-lede {
+  color: $mid-gray;
+  font-size: 1.35rem;
+  line-height: 1.45;
+  margin: 1.5rem 0 0;
+  max-width: 540px;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.8rem;
+}
+
+.button-primary,
+.button-secondary {
+  align-items: center;
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.92rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  min-height: 44px;
+  padding: 0.82rem 1.12rem;
+  transition: background-color 0.16s ease, border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+  white-space: nowrap;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.button-primary {
+  background-color: $theme-color;
+  color: #fff;
+
+  &:hover {
+    background-color: #51418f;
+    color: #fff;
+  }
+}
+
+.button-secondary {
+  background-color: rgba(#fff, 0.72);
+  border: 1px solid rgba($theme-color, 0.28);
+  color: $theme-color;
+
+  &:hover {
+    background-color: rgba($theme-color, 0.08);
+    color: $theme-color;
+  }
+}
+
+.profile-card {
+  background: linear-gradient(145deg, #fff, rgba($theme-color, 0.08));
+  border: 1px solid rgba($theme-color, 0.16);
+  border-radius: $border-radius;
+  box-shadow: 0 24px 70px rgba($dark-gray, 0.12);
+  margin: 0;
+  overflow: hidden;
+  padding: 0.65rem;
+}
+
+.profile-card img {
+  aspect-ratio: 1;
+  border-radius: $border-radius;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.profile-card figcaption {
+  color: $mid-gray;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 0.8rem 0.2rem 0.2rem;
+}
+
+.home-bio {
+  border-left: 3px solid rgba($theme-color, 0.44);
+  max-width: 840px;
+  padding-left: 1.4rem;
+}
+
+.home-bio h2,
+.home-pathways h2,
+.news h2 {
+  font-size: 2.1rem;
+  margin: 0 0 1rem;
+}
+
+.home-bio__content p {
+  font-size: 1.05rem;
+  margin: 0 0 1rem;
+}
+
+.home-section-heading {
+  max-width: 700px;
+}
+
+.home-section-heading h2 {
+  font-size: 2.8rem;
+  margin: 0 0 0.8rem;
+}
+
+.home-section-heading p {
+  color: $mid-gray;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.focus-grid,
+.pathway-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1.6rem;
+}
+
+.focus-card,
+.pathway-card,
+.post-card {
+  border-radius: $border-radius;
+}
+
+.focus-card {
+  background-color: rgba(#fff, 0.78);
+  border: 1px solid rgba($theme-color, 0.14);
+  min-height: 210px;
+  padding: 1.2rem;
+}
+
+.focus-card h3 {
+  font-size: 1.25rem;
+  margin: 0 0 0.8rem;
+}
+
+.focus-card p {
+  color: $mid-gray;
+  margin: 0;
+}
+
+.focus-card--accent {
+  background-color: $theme-color;
+  border-color: $theme-color;
+
+  h3,
+  p {
+    color: #fff;
+  }
+}
+
+.focus-card--pattern {
+  background:
+    linear-gradient(135deg, rgba($theme-color, 0.1) 0 1px, transparent 1px 18px),
+    rgba(#fff, 0.86);
+}
+
+.pathway-card {
+  background-color: rgba(#fff, 0.82);
+  border: 1px solid rgba($theme-color, 0.14);
+  display: block;
+  min-height: 145px;
+  padding: 1.1rem;
+  transition: border-color 0.16s ease, transform 0.16s ease, background-color 0.16s ease;
+}
+
+.pathway-card:hover {
+  background-color: #fff;
+  border-color: rgba($theme-color, 0.38);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.pathway-card:active {
+  transform: translateY(1px);
+}
+
+.pathway-card span {
+  color: $theme-color;
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin-bottom: 0.55rem;
+}
+
+.pathway-card p {
+  color: $mid-gray;
+  margin: 0;
+}
+
+.news,
+.social {
+  border-top: 1px solid rgba($theme-color, 0.16);
+  margin-top: 0;
+  padding-top: 1.5rem;
+}
+
+.news table {
+  border-collapse: separate;
+  border-spacing: 0 0.65rem;
+  width: 100%;
+}
+
+.news td {
+  background-color: rgba(#fff, 0.75);
+  border: 0;
+  padding: 0.9rem 1rem;
+  vertical-align: top;
+}
+
+.news tr td:first-child {
+  border-radius: $border-radius 0 0 $border-radius;
+}
+
+.news tr td:last-child {
+  border-radius: 0 $border-radius $border-radius 0;
+}
+
+.news .date {
+  color: $mid-gray;
+  font-size: 0.82rem;
+  font-weight: 700;
+  width: 9.5rem;
+}
+
+.news .announcement {
+  color: $text-color;
+}
+
+.social {
+  text-align: center;
+}
+
+.social .contacticon {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 0;
+}
+
+.social a {
+  align-items: center;
+  background-color: rgba(#fff, 0.82);
+  border: 1px solid rgba($theme-color, 0.16);
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 1.2rem;
+  height: 44px;
+  justify-content: center;
+  transition: border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+  width: 44px;
+}
+
+.social a:hover {
+  border-color: rgba($theme-color, 0.42);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button-primary,
+  .button-secondary,
+  .pathway-card,
+  .social a {
+    transition: none;
+  }
+}
+
+@include media-query($viewport-medium) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .home-title {
+    font-size: 4.6rem;
+  }
+
+  .home-lede {
+    font-size: 1.22rem;
+  }
+
+  .home-section-heading h2 {
+    font-size: 2.25rem;
+  }
+
+  .profile-card {
+    max-width: 420px;
+  }
+
+  .focus-grid,
+  .pathway-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@include media-query($on-palm) {
+  .home-shell {
+    gap: 3rem;
+  }
+
+  .home-hero {
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .home-title {
+    font-size: 3rem;
+  }
+
+  .home-bio h2,
+  .home-pathways h2,
+  .news h2 {
+    font-size: 1.65rem;
+  }
+
+  .home-section-heading h2 {
+    font-size: 1.9rem;
+  }
+
+  .home-bio {
+    padding-left: 1rem;
+  }
+
+  .news table,
+  .news tbody,
+  .news tr,
+  .news td {
+    display: block;
+  }
+
+  .news td {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .news tr td:first-child,
+  .news tr td:last-child {
+    border-radius: $border-radius;
+  }
+
+  .news .date {
+    width: auto;
+  }
+}

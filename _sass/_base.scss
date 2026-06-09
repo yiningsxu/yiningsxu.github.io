@@ -8,7 +8,8 @@ body {
 }
 
 img {
-  max-width: none;
+  height: auto;
+  max-width: 100%;
 }
 
 em img {
@@ -17,17 +18,30 @@ em img {
 }
 
 body {
+  background:
+    linear-gradient(180deg, rgba($theme-color, 0.045), rgba($background-color, 0) 420px),
+    $background-color;
   box-sizing: border-box;
+  color: $text-color;
+  font-family: $font-family;
+  font-weight: 400;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
 .wrapper {
-  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-  max-width: calc(800px - (#{$horizontal-spacing-unit} * 2));
+  max-width: -webkit-calc(1120px - (#{$horizontal-spacing-unit} * 2));
+  max-width: calc(1120px - (#{$horizontal-spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $horizontal-spacing-unit;
   padding-left: $horizontal-spacing-unit;
   @extend .clearfix;
+}
+
+@include media-query($on-palm) {
+  .wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }

@@ -13,9 +13,9 @@
   }
 }
 .post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: 0;
+  line-height: 1.08;
   margin-bottom: 10px;
   margin-top: 0;
   // @include media-query($on-laptop) {
@@ -24,13 +24,13 @@
 }
 .post-content {
   h2 {
-    font-size: 42px;
+    font-size: 2.2rem;
     // @include media-query($on-laptop) {
     //     font-size: 28px;
     // }
   }
   h3 {
-    font-size: 30px;
+    font-size: 1.65rem;
     // @include media-query($on-laptop) {
     //     font-size: 22px;
     // }
@@ -50,4 +50,72 @@
 .post-link {
   display: block;
   font-size: 42px;
+}
+
+.posts-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  margin: 1.2rem 0 2.6rem;
+}
+
+.post-card {
+  background: rgba(#fff, 0.84);
+  border: 1px solid rgba($theme-color, 0.14);
+  box-shadow: 0 16px 42px rgba($dark-gray, 0.08);
+  overflow: hidden;
+  transition: border-color 0.16s ease, transform 0.16s ease;
+}
+
+.post-card:hover {
+  border-color: rgba($theme-color, 0.34);
+  transform: translateY(-2px);
+}
+
+.post-thumbnail {
+  aspect-ratio: 1.35;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.post-card .post-title {
+  font-size: 0.98rem;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0.95rem 1rem 0.3rem;
+}
+
+.post-card .post-title a {
+  color: $dark-gray;
+  font-weight: 800;
+}
+
+.post-card .post-title a:hover {
+  color: $theme-color;
+  text-decoration: none;
+}
+
+.post-date {
+  color: $mid-gray;
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0 1rem 1rem;
+}
+
+@include media-query($on-palm) {
+  .post-title {
+    font-size: 2.25rem;
+  }
+
+  .post-content {
+    h2 {
+      font-size: 1.65rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
 }

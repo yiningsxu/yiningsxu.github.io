@@ -1,5 +1,5 @@
 .page-content {
-  padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+  padding: 108px 0 88px;
 }
 .page-heading {
   font-size: 20px;
@@ -11,4 +11,55 @@
 }
 .center {
   text-align: center;
+}
+
+.post {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.post-header {
+  margin-bottom: 2.4rem;
+
+  .post-title {
+    margin-bottom: 0.55rem;
+  }
+
+  .post-description {
+    color: $mid-gray;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+.post-content {
+  h2 {
+    border-top: 1px solid rgba($theme-color, 0.18);
+    margin-top: 2.7rem;
+    padding-top: 1.2rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+}
+
+body.layout-about .page-content {
+  padding-top: 82px;
+}
+
+body.layout-about .post {
+  max-width: none;
+}
+
+@include media-query($on-palm) {
+  .page-content {
+    padding: 88px 0 64px;
+  }
+
+  .post-header {
+    margin-bottom: 1.8rem;
+  }
 }
