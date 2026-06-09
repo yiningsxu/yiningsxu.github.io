@@ -57,7 +57,7 @@ nav_label: プロジェクト
 {% endfor %}
 </div>
 
-### Infectious Diseases
+### 感染症
 
 {% assign infectious_disease_projects = site.projects | where: 'category', 'research' | where: 'research_area', 'infectious_diseases' | where: 'lang', page.lang | reverse %}
 {% if infectious_disease_projects.size > 0 %}
