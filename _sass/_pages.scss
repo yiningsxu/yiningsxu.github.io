@@ -37,6 +37,7 @@
 .post-content {
   h2 {
     border-top: 1px solid rgba($theme-color, 0.18);
+    scroll-margin-top: $nav-height + 24px;
     margin-top: 2.7rem;
     padding-top: 1.2rem;
   }

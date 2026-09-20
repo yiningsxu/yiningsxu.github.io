@@ -9,7 +9,7 @@ summary: 公衆衛生、児童福祉、母子保健のためのデータサイ�
 featured_projects:
   [
     oral_health_maltreatment,
-    airport_fever_screening_covid19,
+    infectious_diseases_others,
     id_photo_converter,
   ]
 lang: ja
