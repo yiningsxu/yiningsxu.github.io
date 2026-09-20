@@ -3,7 +3,7 @@ layout: page
 title: 空港発熱スクリーニングによるSARS-CoV-2感染者検出
 description: 沖縄県の空港におけるサーモグラフィー発熱スクリーニングが、SARS-CoV-2感染国内旅客をどの程度検出できたかを評価した研究です。
 category: research
-research_area: infectious_diseases
+research_area: other
 lang: ja
 ref: airport_fever_screening_covid19
 img: /assets/img/research_airport_fever_screening_covid19.png

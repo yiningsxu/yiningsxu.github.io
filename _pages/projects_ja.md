@@ -57,12 +57,15 @@ nav_label: プロジェクト
 {% endfor %}
 </div>
 
-### 感染症
+{% assign research_areas = 'infectious_diseases,other' | split: ',' %}
+{% for research_area in research_areas %}
+{% assign area_projects = site.projects | where: 'category', 'research' | where: 'research_area', research_area | where: 'lang', page.lang | reverse %}
+{% if area_projects.size > 0 %}
 
-{% assign infectious_disease_projects = site.projects | where: 'category', 'research' | where: 'research_area', 'infectious_diseases' | where: 'lang', page.lang | reverse %}
-{% if infectious_disease_projects.size > 0 %}
+### {% if research_area == 'infectious_diseases' %}感染症{% else %}その他{% endif %}
+
 <div class="projects-grid">
-{% for project in infectious_disease_projects %}
+{% for project in area_projects %}
 
 {% if project.redirect %}
 <div class="project">
@@ -103,6 +106,7 @@ nav_label: プロジェクト
 {% endfor %}
 </div>
 {% endif %}
+{% endfor %}
 
 ## 個人プロジェクト
 

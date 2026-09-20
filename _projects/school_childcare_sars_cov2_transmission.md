@@ -3,7 +3,7 @@ layout: page
 title: SARS-CoV-2 Transmission in Schools and Childcare Settings
 description: Analysis of secondary SARS-CoV-2 transmission from childcare workers versus teachers in school-associated screening events in Okinawa.
 category: research
-research_area: infectious_diseases
+research_area: other
 lang: en
 ref: school_childcare_sars_cov2_transmission
 img: /assets/img/research_school_childcare_sars_cov2_transmission.png

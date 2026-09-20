@@ -3,7 +3,7 @@ layout: page
 title: Airport Fever Screening for SARS-CoV-2
 description: Retrospective evaluation of thermographic airport fever screening for detecting domestic passengers infected with SARS-CoV-2 in Okinawa.
 category: research
-research_area: infectious_diseases
+research_area: other
 lang: en
 ref: airport_fever_screening_covid19
 img: /assets/img/research_airport_fever_screening_covid19.png

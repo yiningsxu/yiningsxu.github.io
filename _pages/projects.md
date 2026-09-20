@@ -57,12 +57,15 @@ nav_label: Projects
 {% endfor %}
 </div>
 
-### Infectious Diseases
+{% assign research_areas = 'infectious_diseases,other' | split: ',' %}
+{% for research_area in research_areas %}
+{% assign area_projects = site.projects | where: 'category', 'research' | where: 'research_area', research_area | where: 'lang', page.lang | reverse %}
+{% if area_projects.size > 0 %}
 
-{% assign infectious_disease_projects = site.projects | where: 'category', 'research' | where: 'research_area', 'infectious_diseases' | where: 'lang', page.lang | reverse %}
-{% if infectious_disease_projects.size > 0 %}
+### {% if research_area == 'infectious_diseases' %}Infectious Diseases{% else %}Other{% endif %}
+
 <div class="projects-grid">
-{% for project in infectious_disease_projects %}
+{% for project in area_projects %}
 
 {% if project.redirect %}
 <div class="project">
@@ -103,6 +106,7 @@ nav_label: Projects
 {% endfor %}
 </div>
 {% endif %}
+{% endfor %}
 
 ## Personal Projects
 

@@ -3,7 +3,7 @@ layout: page
 title: 学校・保育現場におけるSARS-CoV-2二次感染
 description: 沖縄県の学校関連PCR検査事業を用いて、保育士・職員と教職員を起点とするSARS-CoV-2二次感染を比較した研究です。
 category: research
-research_area: infectious_diseases
+research_area: other
 lang: ja
 ref: school_childcare_sars_cov2_transmission
 img: /assets/img/research_school_childcare_sars_cov2_transmission.png
