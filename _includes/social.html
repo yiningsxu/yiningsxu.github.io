@@ -1,19 +1,56 @@
-<section class="social" aria-label="Contact links">
-  <span class="contacticon center">
-    <a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fas fa-envelope"></i></a>
-    {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener noreferrer" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %} {%
-    if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer" title="Google Scholar"
-      ><i class="ai ai-google-scholar"></i></a
-    >{% endif %} {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" title="GitHub"
-      ><i class="fab fa-github"></i></a
-    >{% endif %} {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer" title="LinkedIn"
-      ><i class="fab fa-linkedin"></i></a
-    >{% endif %} {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer" title="Twitter"
-      ><i class="fab fa-twitter"></i></a
-    >{% endif %} {% if site.strava_userid %}<a href="https://www.strava.com/athletes/{{ site.strava_userid }}" target="_blank" rel="noopener noreferrer" title="Strava"
-      ><i class="fab fa-strava"></i></a
-    >{% endif %}
-  </span>
-
-  <div class="col three caption">{{ site.contact_note }}</div>
+{% assign current_lang = page.lang | default: site.default_lang | default: 'en' %}
+<section class="social" aria-labelledby="contact-title">
+  <h2 id="contact-title" class="social-heading">
+    {% if current_lang == 'ja' -%}
+      連絡先・研究者プロフィール
+    {%- else -%}
+      Connect & follow
+    {%- endif %}
+  </h2>
+  <div class="contacticon">
+    <a href="mailto:{{ site.email | encode_email }}"
+      ><i class="fas fa-envelope" aria-hidden="true"></i
+      ><span>
+        {%- if current_lang == 'ja' %}メール{% else %}Email{% endif -%}
+      </span></a
+    >
+    {% if site.orcid_id -%}
+      <a href="https://orcid.org/{{ site.orcid_id }}"
+        ><i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span></a
+      >
+    {%- endif %}
+    {% if site.scholar_userid -%}
+      <a
+        href="https://scholar.google.com/citations?user={{ site.scholar_userid | escape }}"
+        ><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a
+      >
+    {%- endif %}
+    {% if site.github_username -%}
+      <a
+        href="https://github.com/{{ site.github_username }}"
+        ><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a
+      >
+    {%- endif %}
+    {% if site.linkedin_username -%}
+      <a
+        href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
+        ><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a
+      >
+    {%- endif %}
+    {% if site.twitter_username -%}
+      <a
+        href="https://twitter.com/{{ site.twitter_username }}"
+        ><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a
+      >
+    {%- endif %}
+    {% if site.strava_userid -%}
+      <a
+        href="https://www.strava.com/athletes/{{ site.strava_userid }}"
+        ><i class="fab fa-strava" aria-hidden="true"></i><span>Strava</span></a
+      >
+    {%- endif %}
+  </div>
+  {% if site.contact_note != blank %}
+    <p>{{ site.contact_note }}</p>
+  {% endif %}
 </section>

@@ -7,6 +7,21 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+.skip-link {
+  background: $theme-color;
+  color: #fff;
+  left: 12px;
+  padding: 10px 14px;
+  position: fixed;
+  text-decoration: none;
+  top: -60px;
+  z-index: 100;
+
+  &:focus {
+    top: 12px;
+  }
+}
+
 img {
   height: auto;
   max-width: 100%;
@@ -19,7 +34,11 @@ em img {
 
 body {
   background:
-    linear-gradient(180deg, rgba($theme-color, 0.045), rgba($background-color, 0) 420px),
+    linear-gradient(
+      180deg,
+      rgba($theme-color, 0.045),
+      rgba($background-color, 0) 420px
+    ),
     $background-color;
   box-sizing: border-box;
   color: $text-color;

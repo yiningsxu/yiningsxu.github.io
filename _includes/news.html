@@ -1,22 +1,36 @@
 {% assign current_lang = page.lang | default: site.default_lang | default: 'en' %}
-<section class="news" aria-labelledby="news-title">
-  <h2 id="news-title">{% if current_lang == 'ja' %}最近の更新{% else %}News{% endif %}</h2>
-  {% if site.news %}
-  <table>
-    {% assign news = site.news | reverse %} {% for item in news limit: site.news_limit %}
-    <tr>
-      <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
-      <td class="announcement">
-        {% if item.inline %} {{ item.content | remove: '
-        <p>' | remove: '</p>
-        ' | emojify }} {% else %}
-        <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-        {% endif %}
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
-  {% else %}
-  <p>{% if current_lang == 'ja' %}現在、掲載中のお知らせはありません。{% else %}No news yet.{% endif %}</p>
-  {% endif %}
-</section>
+{% assign recent_posts = site.posts | where: 'lang', current_lang %}
+{% assign news_items = site.news | where: 'lang', current_lang %}
+{% assign updates = news_items | concat: recent_posts | sort: 'date' | reverse %}
+{% if updates.size > 0 %}
+  <section class="news" aria-labelledby="news-title">
+    <div class="home-section-heading home-section-heading--split">
+      <h2 id="news-title">
+        {% if current_lang == 'ja' -%}
+          最近の活動
+        {%- else -%}
+          Latest activity
+        {%- endif %}
+      </h2>
+      {% if current_lang == 'ja' %}
+        <a class="section-link" href="{{ '/ja/blogs/' | relative_url }}"
+          >活動記録をすべて見る <span aria-hidden="true">↗</span></a
+        >
+      {% else %}
+        <a class="section-link" href="{{ '/blogs/' | relative_url }}">All updates <span aria-hidden="true">↗</span></a>
+      {% endif %}
+    </div>
+    <ul class="news-list">
+      {% for item in updates limit: 3 %}
+        <li class="news-item">
+          <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%Y.%m.%d' }}</time>
+          {% if item.inline %}
+            <div>{{ item.content | emojify }}</div>
+          {% else %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

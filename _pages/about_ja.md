@@ -2,8 +2,16 @@
 layout: about
 permalink: /ja/
 title: <strong>Yining</strong> Xu
-description: <a href=""></a>京都, 日本
+description: 京都大学大学院の博士課程に在籍するYining Xuの個人ページ。データサイエンス、児童福祉、公衆衛生に関する研究と活動を紹介します。
+location: 京都、日本
+affiliation: 京都大学大学院 総合生存学館 · 帝京大学大学院 公衆衛生学研究科
 summary: 公衆衛生、児童福祉、母子保健のためのデータサイエンス。
+featured_projects:
+  [
+    oral_health_maltreatment,
+    airport_fever_screening_covid19,
+    id_photo_converter,
+  ]
 lang: ja
 ref: about
 nav: true

@@ -2,8 +2,16 @@
 layout: about
 permalink: /
 title: <strong>Yining</strong> Xu
-description: <a href=""></a>Kyoto, Japan
+description: Yining Xu, a doctoral student at Kyoto University, researching data science, child welfare, and public health.
+location: Kyoto, Japan
+affiliation: Kyoto University · Teikyo University
 summary: Data science for public health, child welfare, and maternal and child health.
+featured_projects:
+  [
+    oral_health_maltreatment,
+    airport_fever_screening_covid19,
+    id_photo_converter,
+  ]
 lang: en
 ref: about
 nav: true

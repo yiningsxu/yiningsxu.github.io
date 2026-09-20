@@ -1,38 +1,92 @@
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{{ site.name }}{% if page.title and page.url != "/" %} | {{ page.title | strip_html }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}" />
+  {% capture page_title %}{{ site.name }}{% if page.title and page.layout != 'about' %} | {{ page.title | strip_html }}{% endif %}{% endcapture %}
+  {% assign page_description = page.description | default: page.summary | default: site.description | strip_html | normalize_whitespace %}
+  {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+  <title>{{ page_title | strip | escape }}</title>
+  <meta name="description" content="{{ page_description | escape }}">
+  <meta name="theme-color" content="#6250a8">
+  <meta property="og:title" content="{{ page_title | strip | escape }}">
+  <meta property="og:description" content="{{ page_description | escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:site_name" content="{{ site.name | escape }}">
+  <meta
+    property="og:type"
+    content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"
+  >
+  <meta
+    property="og:locale"
+    content="{% if page.lang == 'ja' %}ja_JP{% else %}en_US{% endif %}"
+  >
+  {% assign preview_image = page.img | default: page.thumbnail | default: '/assets/img/yiningsxu.jpg' %}
+  <meta property="og:image" content="{{ preview_image | absolute_url }}">
+  <meta name="twitter:card" content="summary">
 
-  <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" />
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="{{ '/assets/img/favicon.svg' | relative_url }}"
+  >
 
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="canonical" href="{{ canonical_url }}">
 
   {% if page.ref %}
     {% assign en_url = '' %}
     {% assign ja_url = '' %}
     {% for item in site.pages %}
       {% if item.ref == page.ref %}
-        {% if item.lang == 'en' %}{% assign en_url = item.url %}{% endif %}
-        {% if item.lang == 'ja' %}{% assign ja_url = item.url %}{% endif %}
+        {% if item.lang == 'en' -%}
+          {%- assign en_url = item.url -%}
+        {%- endif %}
+        {% if item.lang == 'ja' -%}
+          {%- assign ja_url = item.url -%}
+        {%- endif %}
       {% endif %}
     {% endfor %}
     {% for item in site.posts %}
       {% if item.ref == page.ref %}
-        {% if item.lang == 'en' %}{% assign en_url = item.url %}{% endif %}
-        {% if item.lang == 'ja' %}{% assign ja_url = item.url %}{% endif %}
+        {% if item.lang == 'en' -%}
+          {%- assign en_url = item.url -%}
+        {%- endif %}
+        {% if item.lang == 'ja' -%}
+          {%- assign ja_url = item.url -%}
+        {%- endif %}
       {% endif %}
     {% endfor %}
     {% for item in site.projects %}
       {% if item.ref == page.ref %}
-        {% if item.lang == 'en' %}{% assign en_url = item.url %}{% endif %}
-        {% if item.lang == 'ja' %}{% assign ja_url = item.url %}{% endif %}
+        {% if item.lang == 'en' -%}
+          {%- assign en_url = item.url -%}
+        {%- endif %}
+        {% if item.lang == 'ja' -%}
+          {%- assign ja_url = item.url -%}
+        {%- endif %}
       {% endif %}
     {% endfor %}
-    {% if en_url != '' %}<link rel="alternate" hreflang="en" href="{{ en_url | prepend: site.baseurl | prepend: site.url }}" />{% endif %}
-    {% if ja_url != '' %}<link rel="alternate" hreflang="ja" href="{{ ja_url | prepend: site.baseurl | prepend: site.url }}" />{% endif %}
+    {% if en_url != '' %}
+      <link
+        rel="alternate"
+        hreflang="en"
+        href="{{ en_url | prepend: site.baseurl | prepend: site.url }}"
+      >
+    {% endif %}
+    {% if en_url != '' %}
+      <link
+        rel="alternate"
+        hreflang="x-default"
+        href="{{ en_url | absolute_url }}"
+      >
+    {% endif %}
+    {% if ja_url != '' %}
+      <link
+        rel="alternate"
+        hreflang="ja"
+        href="{{ ja_url | prepend: site.baseurl | prepend: site.url }}"
+      >
+    {% endif %}
   {% endif %}
 </head>

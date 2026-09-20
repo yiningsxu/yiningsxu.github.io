@@ -1,70 +1,105 @@
 ---
 layout: default
 ---
-
 {% assign current_lang = page.lang | default: site.default_lang | default: 'en' %}
-
 {% if current_lang == 'ja' %}
-{% assign primary_link = '/ja/projects/' %}
-{% assign secondary_link = '/ja/cv/' %}
-{% assign tertiary_link = '/ja/achievements/' %}
-{% assign primary_label = 'プロジェクト' %}
-{% assign secondary_label = 'CV' %}
-{% assign tertiary_label = '業績' %}
-{% assign portrait_caption = '京都大学大学院 総合生存学館 博士課程' %}
-{% assign bio_title = 'Profile' %}
-{% assign focus_title = '研究の焦点' %}
-{% assign focus_intro = 'データ、児童福祉、公衆衛生をつなぎ、現場の意思決定に役立つ知見を形にしています。' %}
-{% assign focus_one_title = 'データサイエンス' %}
-{% assign focus_one_body = '公衆衛生領域のための統計解析、モデル、データ基盤づくり。' %}
-{% assign focus_two_title = '児童虐待' %}
-{% assign focus_two_body = '児童福祉、口腔保健、一時保護に関する実証研究。' %}
-{% assign focus_three_title = '公衆衛生' %}
-{% assign focus_three_body = '日本の現場に根ざした疫学研究と組織横断の共同研究。' %}
-{% assign pathways_title = '探索する' %}
-{% assign pathway_projects = '研究と個人制作の一覧' %}
-{% assign pathway_achievements = '論文、発表、研究費' %}
-{% assign pathway_cv = '履歴書と詳細プロフィール' %}
+  {% assign primary_link = '/ja/projects/' %}
+  {% assign secondary_link = '/ja/cv/' %}
+  {% assign tertiary_link = '/ja/achievements/' %}
+  {% assign primary_label = 'プロジェクト' %}
+  {% assign secondary_label = 'CV' %}
+  {% assign tertiary_label = '業績' %}
+  {% assign portrait_caption = '京都大学大学院 総合生存学館 博士課程' %}
+  {% assign bio_title = 'プロフィール' %}
+  {% assign role_label = '博士課程・公衆衛生研究' %}
+  {% assign contact_label = 'お問い合わせ' %}
+  {% assign selected_title = '研究と制作' %}
+  {% assign selected_intro = '取り組んでいる研究と、日々の課題から生まれたツール。' %}
+  {% assign all_projects_label = 'すべてのプロジェクト' %}
+  {% assign research_label = '研究' %}
+  {% assign personal_label = '個人制作' %}
+  {% assign detail_label = '詳しく見る' %}
+  {% assign portrait_alt = 'Yining Xuのプロフィール写真' %}
+  {% assign focus_title = '研究の焦点' %}
+  {% assign focus_intro = 'データ、児童福祉、公衆衛生をつなぎ、現場の意思決定に役立つ知見を形にしています。' %}
+  {% assign focus_one_title = 'データサイエンス' %}
+  {% assign focus_one_body = '公衆衛生領域のための統計解析、モデル、データ基盤づくり。' %}
+  {% assign focus_two_title = '児童虐待' %}
+  {% assign focus_two_body = '児童福祉、口腔保健、一時保護に関する実証研究。' %}
+  {% assign focus_three_title = '公衆衛生' %}
+  {% assign focus_three_body = '日本の現場に根ざした疫学研究と組織横断の共同研究。' %}
+  {% assign pathways_title = '探索する' %}
+  {% assign pathway_projects = '研究と個人制作の一覧' %}
+  {% assign pathway_achievements = '論文、発表、研究費' %}
+  {% assign pathway_cv = '履歴書と詳細プロフィール' %}
 {% else %}
-{% assign primary_link = '/projects/' %}
-{% assign secondary_link = '/cv/' %}
-{% assign tertiary_link = '/achievements/' %}
-{% assign primary_label = 'Projects' %}
-{% assign secondary_label = 'CV' %}
-{% assign tertiary_label = 'Achievements' %}
-{% assign portrait_caption = 'Doctoral researcher, Kyoto University' %}
-{% assign bio_title = 'Profile' %}
-{% assign focus_title = 'Research Focus' %}
-{% assign focus_intro = 'I connect data, child welfare, and public health to support decisions grounded in evidence.' %}
-{% assign focus_one_title = 'Data Science' %}
-{% assign focus_one_body = 'Statistical workflows, models, and data systems for public health.' %}
-{% assign focus_two_title = 'Child Maltreatment' %}
-{% assign focus_two_body = 'Evidence-oriented research on child welfare, oral health, and protective care.' %}
-{% assign focus_three_title = 'Public Health' %}
-{% assign focus_three_body = 'Applied epidemiology and cross-institutional collaboration in Japan.' %}
-{% assign pathways_title = 'Explore' %}
-{% assign pathway_projects = 'Research and personal tools' %}
-{% assign pathway_achievements = 'Publications, presentations, funding' %}
-{% assign pathway_cv = 'Documents and detailed profile' %}
+  {% assign primary_link = '/projects/' %}
+  {% assign secondary_link = '/cv/' %}
+  {% assign tertiary_link = '/achievements/' %}
+  {% assign primary_label = 'Projects' %}
+  {% assign secondary_label = 'CV' %}
+  {% assign tertiary_label = 'Achievements' %}
+  {% assign portrait_caption = 'Doctoral researcher, Kyoto University' %}
+  {% assign bio_title = 'Profile' %}
+  {% assign role_label = 'Doctoral student · Public health research' %}
+  {% assign contact_label = 'Get in touch' %}
+  {% assign selected_title = 'Research & projects' %}
+  {% assign selected_intro = 'Selected research and practical tools inspired by everyday questions.' %}
+  {% assign all_projects_label = 'All projects' %}
+  {% assign research_label = 'Research' %}
+  {% assign personal_label = 'Personal tool' %}
+  {% assign detail_label = 'Explore project' %}
+  {% assign portrait_alt = 'Portrait of Yining Xu' %}
+  {% assign focus_title = 'Research Focus' %}
+  {% assign focus_intro = 'I connect data, child welfare, and public health to support decisions grounded in evidence.' %}
+  {% assign focus_one_title = 'Data Science' %}
+  {% assign focus_one_body = 'Statistical workflows, models, and data systems for public health.' %}
+  {% assign focus_two_title = 'Child Maltreatment' %}
+  {% assign focus_two_body = 'Evidence-oriented research on child welfare, oral health, and protective care.' %}
+  {% assign focus_three_title = 'Public Health' %}
+  {% assign focus_three_body = 'Applied epidemiology and cross-institutional collaboration in Japan.' %}
+  {% assign pathways_title = 'Explore' %}
+  {% assign pathway_projects = 'Research and personal tools' %}
+  {% assign pathway_achievements = 'Publications, presentations, funding' %}
+  {% assign pathway_cv = 'Documents and detailed profile' %}
 {% endif %}
 
-<main class="home-shell">
+<div class="home-shell">
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-hero__copy">
-      <p class="home-kicker">{{ page.description | strip_html }}</p>
+      <p class="home-kicker">{{ role_label }}</p>
       <h1 id="home-title" class="home-title">{{ page.title }}</h1>
       <p class="home-lede">{{ page.summary }}</p>
+      <p class="home-affiliation">{{ page.affiliation }}</p>
       <div class="home-actions">
-        <a class="button-primary" href="{{ primary_link | relative_url }}">{{ primary_label }}</a>
+        <a class="button-primary" href="#selected-projects">
+          {{- selected_title }}
+          <span aria-hidden="true">↗</span></a
+        >
         <a class="button-secondary" href="{{ secondary_link | relative_url }}">{{ secondary_label }}</a>
+        <a
+          class="home-contact-link"
+          href="mailto:{{ site.email | encode_email }}"
+        >
+          {{- contact_label }}
+          <span aria-hidden="true">↗</span></a
+        >
       </div>
     </div>
 
     {% if page.profile and page.profile.image %}
-    <figure class="profile-card">
-      <img src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of Yining Xu" />
-      <figcaption>{{ portrait_caption }}</figcaption>
-    </figure>
+      <figure class="profile-card">
+        <img
+          src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}"
+          alt="{{ portrait_alt }}"
+          width="3024"
+          height="3024"
+          fetchpriority="high"
+        >
+        <figcaption>
+          <span class="profile-location">{{ page.location }}</span><span>{{ portrait_caption }}</span>
+        </figcaption>
+      </figure>
     {% endif %}
   </section>
 
@@ -80,17 +115,70 @@ layout: default
     </div>
     <div class="focus-grid">
       <article class="focus-card focus-card--accent">
+        <span class="focus-number" aria-hidden="true">01</span>
         <h3>{{ focus_one_title }}</h3>
         <p>{{ focus_one_body }}</p>
       </article>
       <article class="focus-card">
+        <span class="focus-number" aria-hidden="true">02</span>
         <h3>{{ focus_two_title }}</h3>
         <p>{{ focus_two_body }}</p>
       </article>
       <article class="focus-card focus-card--pattern">
+        <span class="focus-number" aria-hidden="true">03</span>
         <h3>{{ focus_three_title }}</h3>
         <p>{{ focus_three_body }}</p>
       </article>
+    </div>
+  </section>
+
+  <section
+    id="selected-projects"
+    class="home-selected"
+    aria-labelledby="home-selected-title"
+  >
+    <div class="home-section-heading home-section-heading--split">
+      <div>
+        <h2 id="home-selected-title">{{ selected_title }}</h2>
+        <p>{{ selected_intro }}</p>
+      </div>
+      <a class="section-link" href="{{ primary_link | relative_url }}">
+        {{- all_projects_label }}
+        <span aria-hidden="true">↗</span></a
+      >
+    </div>
+    <div class="selected-grid">
+      {% for project_ref in page.featured_projects %}
+        {% assign project = site.projects | where: 'ref', project_ref | where: 'lang', current_lang | first %}
+        {% if project %}
+          <a class="selected-card" href="{{ project.url | relative_url }}">
+            {% if project.img -%}
+              <img
+                src="{{ project.img | relative_url }}"
+                alt=""
+                loading="lazy"
+                width="640"
+                height="400"
+              >
+            {%- endif %}
+            <div class="selected-card__body">
+              <p class="selected-card__category">
+                {% if project.category == 'research' -%}
+                  {{- research_label -}}
+                {%- else -%}
+                  {{- personal_label -}}
+                {%- endif %}
+              </p>
+              <h3>{{ project.title }}</h3>
+              <p class="selected-card__description">{{ project.description }}</p>
+              <span class="selected-card__link">
+                {{- detail_label }}
+                <span aria-hidden="true">↗</span></span
+              >
+            </div>
+          </a>
+        {% endif %}
+      {% endfor %}
     </div>
   </section>
 
@@ -113,5 +201,7 @@ layout: default
   </section>
 
   {% if page.news %} {% include news.html %} {% endif %}
-  {% if page.social %} {% include social.html %} {% endif %}
-</main>
+  {% if page.social %}
+    {% include social.html %}
+  {% endif %}
+</div>

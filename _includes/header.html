@@ -23,18 +23,17 @@
       {% endif %}
     {% endfor %}
 
-    {% if page.layout != "about" %}
-    <span class="site-title">
+    {% if current_lang == 'ja' %}{% assign home_url = '/ja/' %}{% else %}{% assign home_url = '/' %}{% endif %}
+    <a class="site-title" href="{{ home_url | relative_url }}"{% if current_lang == 'ja' %} aria-label="Yining Xu のホーム"{% else %} aria-label="Yining Xu home"{% endif %}>
       {% assign name = site.name | split: ' ' %}
       <strong>{{ name | first }}</strong> {{ name | last }}
-    </span>
-    {% endif %}
+    </a>
 
-    <nav class="site-nav">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger">
-        <span class="menu-icon">
-          <svg viewBox="0 0 18 15" width="18px" height="15px">
+    <nav class="site-nav"{% if current_lang == 'ja' %} aria-label="主なナビゲーション"{% else %} aria-label="Primary navigation"{% endif %}>
+      <button class="nav-toggle" type="button" aria-controls="site-menu" aria-expanded="false">
+        <span class="nav-toggle-label">{% if current_lang == 'ja' %}メニュー{% else %}Menu{% endif %}</span>
+        <span class="menu-icon" aria-hidden="true">
+          <svg viewBox="0 0 18 15" width="18" height="15" focusable="false">
             <path fill="#424242"
               d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
             <path fill="#424242"
@@ -43,18 +42,22 @@
               d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
           </svg>
         </span>
-      </label>
+      </button>
 
-      <div class="trigger">
+      <div class="trigger" id="site-menu">
         {% assign nav_pages = site.pages | where: 'lang', current_lang | where: 'nav', true | sort: 'nav_order' %}
         {% for nav_page in nav_pages %}
-        <a class="page-link{% if page.url == nav_page.url %} active{% endif %}" href="{{ nav_page.url | relative_url }}">{{ nav_page.nav_label | default: nav_page.title }}</a>
+          {% assign is_current = false %}
+          {% if page.url == nav_page.url %}{% assign is_current = true %}{% endif %}
+          {% if page.collection == 'projects' and nav_page.ref == 'projects' %}{% assign is_current = true %}{% endif %}
+          {% if page.collection == 'posts' and nav_page.ref == 'blogs' %}{% assign is_current = true %}{% endif %}
+          <a class="page-link{% if is_current %} active{% endif %}" href="{{ nav_page.url | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>{{ nav_page.nav_label | default: nav_page.title }}</a>
         {% endfor %}
 
-        <span class="language-switch" aria-label="Language selection">
-          <a class="language-option{% if current_lang == 'en' %} active{% endif %}" href="{{ en_url | relative_url }}" lang="en">EN</a>
-          <a class="language-option{% if current_lang == 'ja' %} active{% endif %}" href="{{ ja_url | relative_url }}" lang="ja">日本語</a>
-        </span>
+        <div class="language-switch" role="group"{% if current_lang == 'ja' %} aria-label="言語を選択"{% else %} aria-label="Language selection"{% endif %}>
+          <a class="language-option{% if current_lang == 'en' %} active{% endif %}" href="{{ en_url | relative_url }}" lang="en"{% if current_lang == 'en' %} aria-current="page"{% endif %}>EN</a>
+          <a class="language-option{% if current_lang == 'ja' %} active{% endif %}" href="{{ ja_url | relative_url }}" lang="ja"{% if current_lang == 'ja' %} aria-current="page"{% endif %}>日本語</a>
+        </div>
       </div>
     </nav>
   </div>
