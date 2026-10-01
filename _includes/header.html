@@ -24,9 +24,10 @@
     {% endfor %}
 
     {% if current_lang == 'ja' %}{% assign home_url = '/ja/' %}{% else %}{% assign home_url = '/' %}{% endif %}
-    <a class="site-title" href="{{ home_url | relative_url }}"{% if current_lang == 'ja' %} aria-label="Yining Xu のホーム"{% else %} aria-label="Yining Xu home"{% endif %}>
+    <a class="site-title" href="{{ home_url | relative_url }}"{% if current_lang == 'ja' %} aria-label="Yining Xu{% if site.native_name %}（{{ site.native_name | escape }}）{% endif %} のホーム"{% else %} aria-label="Yining Xu{% if site.native_name %} ({{ site.native_name | escape }}){% endif %} home"{% endif %}>
       {% assign name = site.name | split: ' ' %}
-      <strong>{{ name | first }}</strong> {{ name | last }}
+      <span><strong>{{ name | first }}</strong> {{ name | last }}</span>
+      {% if site.native_name %}<span class="site-native-name">{{ site.native_name | escape }}</span>{% endif %}
     </a>
 
     <nav class="site-nav"{% if current_lang == 'ja' %} aria-label="主なナビゲーション"{% else %} aria-label="Primary navigation"{% endif %}>
