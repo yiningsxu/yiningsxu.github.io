@@ -15,3 +15,8 @@ I received the **Kyoto University MDASH (Advanced Literacy Level)** badge for th
 ![Kyoto University MDASH (Advanced Literacy Level) badge](/assets/img/2026_DS_badge.png){: width="300px"}
 
 This milestone encourages me to continue learning about mathematics, data science, and AI, and to apply that knowledge in my research and practice.
+
+### Related links
+
+- [MEXT Mathematics, Data Science and AI Education Program Accreditation System (in Japanese)](https://www.mext.go.jp/a_menu/koutou/suuri_datascience_ai/00001.htm)
+- [Kyoto University Data Science Advanced Literacy Program (in Japanese)](https://ds.k.kyoto-u.ac.jp/ouyo-kiso/)
