@@ -68,10 +68,8 @@ layout: default
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-hero__copy">
       <p class="home-kicker">{{ role_label }}</p>
-      <h1 id="home-title" class="home-title">
-        {{ page.title }}
-        {% if site.native_name %}<span class="home-native-name">{{ site.native_name | escape }}</span>{% endif %}
-      </h1>
+      <h1 id="home-title" class="home-title">{{ page.title }}</h1>
+      {% if site.native_name %}<p class="home-native-name">{{ site.native_name | escape }}</p>{% endif %}
       <p class="home-lede">{{ page.summary }}</p>
       <p class="home-affiliation">{{ page.affiliation }}</p>
       <div class="home-actions">
