@@ -6,7 +6,7 @@ category: research
 research_area: child_welfare
 lang: ja
 ref: child_abuse_response_education
-img: /assets/img/research_child_abuse_response_education.png
+img: /assets/img/research_child_abuse_response_education_watercolor.webp
 ---
 
 ## 児童虐待対応と教育的介入

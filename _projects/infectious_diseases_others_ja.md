@@ -1,12 +1,13 @@
 ---
 layout: page
 title: その他
+card_title: 空港・学校での感染症研究
 description: 空港発熱スクリーニングと学校・保育現場のSARS-CoV-2二次感染に関する第二著者としての感染症研究です。
 category: research
 research_area: infectious_diseases
 lang: ja
 ref: infectious_diseases_others
-img: /assets/img/research_infectious_disease_epidemiology.png
+img: /assets/img/research_infectious_disease_epidemiology_illustrated.webp
 ---
 
 - [空港発熱スクリーニングによるSARS-CoV-2感染者検出](#airport-fever-screening)

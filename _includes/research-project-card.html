@@ -1,0 +1,15 @@
+{% assign research_project = include.project %}
+{% assign research_card_title = research_project.card_title | default: research_project.title %}
+<article class="research-card{% if include.compact %} research-card--compact{% endif %}">
+  <a class="research-card__link" href="{% if research_project.redirect %}{{ research_project.redirect }}{% else %}{{ research_project.url | relative_url }}{% endif %}"{% if research_project.redirect %} target="_blank" rel="noopener noreferrer"{% endif %} aria-labelledby="{{ research_project.ref }}-{{ research_project.lang }}-title">
+    {% if research_project.img %}
+    <img class="research-card__image" src="{{ research_project.img | relative_url }}" alt="" width="1536" height="1024" loading="lazy" decoding="async">
+    {% endif %}
+    <div class="research-card__body">
+      <h4 id="{{ research_project.ref }}-{{ research_project.lang }}-title" class="research-card__title">{{ research_card_title | escape }}</h4>
+      {% unless include.compact %}
+      <p class="research-card__description">{{ research_project.description | escape }}</p>
+      {% endunless %}
+    </div>
+  </a>
+</article>

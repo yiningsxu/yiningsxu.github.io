@@ -6,7 +6,7 @@ category: research
 research_area: child_welfare
 lang: en
 ref: oral_health_maltreatment
-img: /assets/img/research_oral_health_maltreatment.png
+img: /assets/img/research_oral_health_maltreatment_watercolor.webp
 ---
 
 ## Oral Health and Maltreatment Classification

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: 高齢者入所施設におけるCOVID-19アウトブレイク規模
+card_title: 高齢者施設のCOVID-19アウトブレイク
 description: 2022年4-6月に沖縄県の高齢者入所施設で発生したCOVID-19アウトブレイク規模の決定要因を解析した研究です。
 category: research
 research_area: infectious_diseases
 lang: ja
 ref: covid19_elderly_facility_outbreaks
-img: /assets/img/research_covid19_elderly_facility_outbreaks.png
+img: /assets/img/research_covid19_elderly_facility_outbreaks_illustrated.webp
 ---
 
 ## 高齢者入所施設におけるCOVID-19アウトブレイク規模

@@ -6,7 +6,7 @@ category: research
 research_area: child_welfare
 lang: ja
 ref: oral_health_maltreatment
-img: /assets/img/research_oral_health_maltreatment.png
+img: /assets/img/research_oral_health_maltreatment_watercolor.webp
 ---
 
 ## 一時保護児の口腔内状況と虐待分類

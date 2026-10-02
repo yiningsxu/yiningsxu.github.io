@@ -6,7 +6,7 @@ category: research
 research_area: child_welfare
 lang: en
 ref: child_abuse_response_education
-img: /assets/img/research_child_abuse_response_education.png
+img: /assets/img/research_child_abuse_response_education_watercolor.webp
 ---
 
 ## Child Abuse Response and Educational Intervention

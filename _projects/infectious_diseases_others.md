@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Others
+card_title: Infections in airports and schools
 description: Second-author infectious-disease research on airport fever screening and SARS-CoV-2 transmission in schools and childcare settings.
 category: research
 research_area: infectious_diseases
 lang: en
 ref: infectious_diseases_others
-img: /assets/img/research_infectious_disease_epidemiology.png
+img: /assets/img/research_infectious_disease_epidemiology_illustrated.webp
 ---
 
 - [Airport Fever Screening for SARS-CoV-2](#airport-fever-screening)

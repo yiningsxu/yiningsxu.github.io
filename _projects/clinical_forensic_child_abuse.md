@@ -6,7 +6,7 @@ category: research
 research_area: child_welfare
 lang: en
 ref: clinical_forensic_child_abuse
-img: /assets/img/research_clinical_forensic_child_abuse.png
+img: /assets/img/research_clinical_forensic_child_abuse_watercolor.webp
 ---
 
 ## Clinical Forensic Assessment of Child Abuse

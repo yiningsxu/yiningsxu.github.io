@@ -1,12 +1,13 @@
 ---
 layout: page
 title: COVID-19 Outbreak Size in Elderly Residential Facilities
+card_title: COVID-19 outbreaks in elderly care facilities
 description: Analysis of facility-level determinants of COVID-19 outbreak size in Okinawa elderly residential facilities during April-June 2022.
 category: research
 research_area: infectious_diseases
 lang: en
 ref: covid19_elderly_facility_outbreaks
-img: /assets/img/research_covid19_elderly_facility_outbreaks.png
+img: /assets/img/research_covid19_elderly_facility_outbreaks_illustrated.webp
 ---
 
 ## COVID-19 Outbreak Size in Elderly Residential Facilities
