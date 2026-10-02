@@ -16,10 +16,7 @@ nav_label: Achievements
 
 #### Infectious Diseases
 
-1. (First author) **Xu YS**, et al. (2025). **Determinants of COVID-19 Outbreak Size in Elderly Residential Facilities in Okinawa Prefecture, Japan, April to June 2022.** *IJID Regions*, 100813-100813. [https://doi.org/10.1016/j.ijregi.2025.100813](https://doi.org/10.1016/j.ijregi.2025.100813)
-2. (Second author) Takayama Y, **Xu YS**, et al. (2024). **Assessment of fever screening at airports in detecting domestic passengers infected with SARS-CoV-2, 2020-2022, Okinawa prefecture, Japan.** *BMC Infectious Diseases*, 24(1). [https://doi.org/10.1186/s12879-024-09427-5](https://doi.org/10.1186/s12879-024-09427-5)
-3. (Second author) Ogawa K, **Xu YS**, et al. (2026). **Secondary Severe Acute Respiratory Syndrome Coronavirus 2 Transmission from Childcare Workers versus Teachers in School-Associated Screening Events, Okinawa, Japan, January-March 2022.** *International Journal of Infectious Diseases*, 167, 108672. [https://doi.org/10.1016/j.ijid.2026.108672](https://doi.org/10.1016/j.ijid.2026.108672)
-4. (Co-author) Kozuka M, ..., **Xu YS**, et al. (2025). **Pre-travel health awareness and perceptions of voluntary airport PCR testing during COVID-19: A cross-sectional study in Okinawa, Japan.** *IJID Regions*, 100817-100817. [https://doi.org/10.1016/j.ijregi.2025.100817](https://doi.org/10.1016/j.ijregi.2025.100817)
+{% include accepted-publications.md %}
 
 ### Under Review
 

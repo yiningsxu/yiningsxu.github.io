@@ -16,6 +16,8 @@ layout: default
   {% assign selected_title = '研究と制作' %}
   {% assign selected_intro = '取り組んでいる研究と、日々の課題から生まれたツール。' %}
   {% assign all_projects_label = 'すべてのプロジェクト' %}
+  {% assign achievements_intro = '採択済み論文を紹介します。学会発表・共同研究・研究費は業績一覧をご覧ください。' %}
+  {% assign all_achievements_label = '業績一覧' %}
   {% assign research_label = '研究' %}
   {% assign personal_label = '個人制作' %}
   {% assign detail_label = '詳しく見る' %}
@@ -46,6 +48,8 @@ layout: default
   {% assign selected_title = 'Research & projects' %}
   {% assign selected_intro = 'Selected research and practical tools inspired by everyday questions.' %}
   {% assign all_projects_label = 'All projects' %}
+  {% assign achievements_intro = 'Accepted publications. See all achievements for conference presentations, collaborative research, and funding.' %}
+  {% assign all_achievements_label = 'All achievements' %}
   {% assign research_label = 'Research' %}
   {% assign personal_label = 'Personal tool' %}
   {% assign detail_label = 'Explore project' %}
@@ -69,7 +73,9 @@ layout: default
     <div class="home-hero__copy">
       <p class="home-kicker">{{ role_label }}</p>
       <h1 id="home-title" class="home-title">{{ page.title }}</h1>
-      {% if site.native_name %}<p class="home-native-name">{{ site.native_name | escape }}</p>{% endif %}
+      {% if site.native_name %}
+        <p class="home-native-name">{{ site.native_name | escape }}</p>
+      {% endif %}
       <p class="home-lede">{{ page.summary }}</p>
       <p class="home-affiliation">{{ page.affiliation }}</p>
       <div class="home-actions">
@@ -77,6 +83,7 @@ layout: default
           {{- selected_title }}
           <span aria-hidden="true">↗</span></a
         >
+        <a class="button-secondary" href="#home-achievements">{{ tertiary_label }}</a>
         <a class="button-secondary" href="{{ secondary_link | relative_url }}">{{ secondary_label }}</a>
         <a
           class="home-contact-link"
@@ -181,6 +188,45 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
+  </section>
+
+  <section
+    id="home-achievements"
+    class="home-achievements"
+    aria-labelledby="home-achievements-title"
+  >
+    <div class="home-section-heading home-section-heading--split">
+      <div>
+        <h2 id="home-achievements-title">{{ tertiary_label }}</h2>
+        <p>{{ achievements_intro }}</p>
+      </div>
+      <a class="section-link" href="{{ tertiary_link | relative_url }}">
+        {{- all_achievements_label }}
+        <span aria-hidden="true">↗</span></a
+      >
+    </div>
+    {% assign home_publications = site.data.accepted_publications | sort: 'year' | reverse %}
+    <ul class="home-publications">
+      {% for publication in home_publications %}
+        <li class="home-publication">
+          <div class="home-publication__meta">
+            <span class="home-publication__year">{{ publication.year }}</span>
+            <span>{{ publication.role[current_lang] }}</span>
+          </div>
+          <div class="home-publication__body">
+            <h3>
+              <a href="{{ publication.doi | escape }}">{{ publication.title | escape }}</a>
+            </h3>
+            <div class="home-publication__authors">
+              {{ publication.authors | markdownify }}
+            </div>
+            <p class="home-publication__journal">
+              <cite>{{ publication.journal | escape }}</cite>, {{ publication.details | escape }}
+            </p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 
   <section class="home-pathways" aria-labelledby="home-pathways-title">
