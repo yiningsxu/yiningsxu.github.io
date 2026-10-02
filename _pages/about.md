@@ -9,8 +9,8 @@ summary: Data science for public health, child welfare, and maternal and child h
 featured_projects:
   [
     oral_health_maltreatment,
-    infectious_diseases_others,
-    id_photo_converter,
+    covid19_elderly_facility_outbreaks,
+    my_library_web,
   ]
 lang: en
 ref: about
