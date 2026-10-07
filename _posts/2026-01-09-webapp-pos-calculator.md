@@ -4,13 +4,13 @@ title: Developed a web application “Smart POS Calculator”.
 date: 2026-01-09
 categories: blog
 tags: [Web App, LifeHack]
-thumbnail: /assets/img/2026-01-09_poscalculator.png
+thumbnail: /assets/img/thumbs/2026-01-09_poscalculator.webp
 subcategory: hobbies
 lang: en
 ref: pos-calculator-post
 ---
 
-![POS Calculator](/assets/img/2026-01-09_poscalculator.png){: width="300px"}
+![POS Calculator](/assets/img/2026-01-09_poscalculator.webp){: width="300px"}
 
 ### I built a “[Smart POS Calculator](https://yiningsxu.github.io/pos_calculator/)” (mobile-first web app)
 I made a lightweight, mobile-first web app that turns a smartphone into a simple POS: a calculator plus customizable product buttons.<br>

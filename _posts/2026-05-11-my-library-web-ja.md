@@ -4,14 +4,14 @@ title: モバイル向け蔵書管理アプリ「My Library」を作りました
 date: 2026-05-11
 categories: blog
 tags: [Web App, Books]
-thumbnail: /assets/img/2026-05-11_my_library.png
+thumbnail: /assets/img/thumbs/2026-05-11_my_library.webp
 subcategory: hobbies
 lang: ja
 ref: my-library-web-post
 permalink: /ja/blog/2026/my-library-web/
 ---
 
-![My Library](/assets/img/2026-05-11_my_library.png){: width="300px"}
+![My Library](/assets/img/2026-05-11_my_library.webp){: width="300px"}
 
 ### スマホで使いやすい蔵書管理アプリ「My Library」を作りました
 

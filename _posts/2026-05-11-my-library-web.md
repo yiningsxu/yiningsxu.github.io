@@ -4,13 +4,13 @@ title: Developed My Library, a mobile-first bookshelf manager.
 date: 2026-05-11
 categories: blog
 tags: [Web App, Books]
-thumbnail: /assets/img/2026-05-11_my_library.png
+thumbnail: /assets/img/thumbs/2026-05-11_my_library.webp
 subcategory: hobbies
 lang: en
 ref: my-library-web-post
 ---
 
-![My Library](/assets/img/2026-05-11_my_library.png){: width="300px"}
+![My Library](/assets/img/2026-05-11_my_library.webp){: width="300px"}
 
 ### I built "[My Library](https://yiningsxu.github.io/my_library_web/bookmanager.html)" (mobile-first bookshelf manager)
 

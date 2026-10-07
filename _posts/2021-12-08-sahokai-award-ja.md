@@ -4,14 +4,14 @@ title: 奈良女子大学 佐保会奨学金を受賞しました。
 date: 2021-12-08
 categories: blog
 tags: [Award, scholarship]
-thumbnail: /assets/img/2021-12-08_Sahokai.jpg
+thumbnail: /assets/img/thumbs/2021-12-08_Sahokai.webp
 subcategory: award
 lang: ja
 ref: sahokai-award
 permalink: /ja/blog/2021/sahokai-award/
 ---
 
-![佐保会奨学金 表彰状](/assets/img/2021-12-08_Sahokai.jpg){: width="300px"}
+![佐保会奨学金 表彰状](/assets/img/2021-12-08_Sahokai.webp){: width="300px"}
 
 ### 佐保会奨学金
 

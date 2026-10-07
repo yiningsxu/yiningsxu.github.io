@@ -1,0 +1,22 @@
+{% assign grid_posts = site.posts | where: 'subcategory', include.subcategory | where: 'lang', page.lang %}
+<div class="posts-grid">
+  {% for post in grid_posts %}
+    <article class="post-card">
+      {% if post.thumbnail %}
+        <img
+          src="{{ post.thumbnail | relative_url }}"
+          alt=""
+          class="post-thumbnail"
+          width="720"
+          height="533"
+          loading="lazy"
+          decoding="async"
+        >
+      {% endif %}
+      <h3 class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y/%m/%d' }}</time>
+    </article>
+  {% endfor %}
+</div>

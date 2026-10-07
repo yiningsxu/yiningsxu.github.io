@@ -1,0 +1,26 @@
+---
+layout: default
+title: Page not found
+permalink: /404.html
+description: The page you are looking for could not be found.
+sitemap: false
+---
+
+<div class="post not-found">
+  <header class="post-header">
+    <p class="home-kicker">404</p>
+    <h1 class="post-title">Page not found</h1>
+    <p lang="ja">ページが見つかりません</p>
+  </header>
+
+  <article class="post-content">
+    <p>The page may have moved or no longer exists.</p>
+    <p lang="ja">お探しのページは移動または削除された可能性があります。</p>
+    <div class="home-actions">
+      <a class="button-primary" href="{{ '/' | relative_url }}">Home</a>
+      <a class="button-secondary" href="{{ '/ja/' | relative_url }}" lang="ja">ホーム（日本語）</a>
+      <a class="button-secondary" href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a class="button-secondary" href="{{ '/blogs/' | relative_url }}">Blogs</a>
+    </div>
+  </article>
+</div>

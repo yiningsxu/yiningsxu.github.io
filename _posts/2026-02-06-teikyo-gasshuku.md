@@ -4,13 +4,13 @@ title: Attend Intensive Abstract & Manuscript Workshop. (Teikyo SPH, Hakone, 202
 date: 2026-02-06
 categories: blog
 tags: [academic]
-thumbnail: /assets/img/2026-02-06_Teikyo_gasshuku.jpg
+thumbnail: /assets/img/thumbs/2026-02-06_Teikyo_gasshuku.webp
 subcategory: academic
 lang: en
 ref: teikyo-gasshuku
 ---
 
-![Attend Intensive Abstract & Manuscript Workshop (Teikyo SPH, Hakone, 2026)](/assets/img/2026-02-06_Teikyo_gasshuku.jpg){: width="300px"}
+![Attend Intensive Abstract & Manuscript Workshop (Teikyo SPH, Hakone, 2026)](/assets/img/2026-02-06_Teikyo_gasshuku.webp){: width="300px"}
 
 ### Attend Intensive Abstract & Manuscript Workshop (Teikyo SPH Hakone Workshop 2026)
 Attended a 3-day intensive workshop on abstract and manuscript writing for students and early-career researchers at Teikyo University, Hakone, Japan. <br>

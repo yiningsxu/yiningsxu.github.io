@@ -5,3 +5,12 @@ _site/
 
 # macOS
 .DS_Store
+
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+Gemfile.lock
+
+# R
+.Rhistory

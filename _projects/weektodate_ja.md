@@ -6,5 +6,5 @@ redirect: https://github.com/yiningsxu/WeekToDate
 category: personal
 lang: ja
 ref: weektodate
-img: /assets/img/Date%20Conversion%20Tool%20jp.png
+img: /assets/img/date-conversion-tool-jp.webp
 ---

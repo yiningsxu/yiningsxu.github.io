@@ -4,13 +4,13 @@ title: Finished a course in Health Economics and received a certificate. (Harvar
 date: 2026-01-15
 categories: blog
 tags: [Health Economics]
-thumbnail: /assets/img/2026-01-15_harvard_health_economics.jpeg
+thumbnail: /assets/img/thumbs/2026-01-15_harvard_health_economics.webp
 subcategory: academic
 lang: en
 ref: harvard-health-economics
 ---
 
-![Health Economics, Harvard Special Session 2026, Certificate of Completion](/assets/img/2026-01-15_harvard_health_economics.jpeg){: width="300px"}
+![Health Economics, Harvard Special Session 2026, Certificate of Completion](/assets/img/2026-01-15_harvard_health_economics.webp){: width="300px"}
 
 ### I completed Health Economics Lecture by Professor [Alastair Gray](https://www.herc.ox.ac.uk/team/alastair-gray) (University of Oxford) in the Harvard Special Session 2026 held by Teikyo University.
 #### 医療経済学, ハーバード特別講義2026, 帝京大学 修了

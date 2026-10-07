@@ -4,14 +4,14 @@ title: IELTS AcademicでOverall 7.0を取得しました。
 date: 2023-11-23
 categories: blog
 tags: [ielts, english]
-thumbnail: /assets/img/ielts_score.jpg
+thumbnail: /assets/img/thumbs/ielts_score.webp
 subcategory: academic
 lang: ja
 ref: ielts-academic
 permalink: /ja/blog/2023/ielts-academic/
 ---
 
-![IELTS Score](/assets/img/ielts_score.jpg){: width="300px"}
+![IELTS Score](/assets/img/ielts_score.webp){: width="300px"}
 
 IELTS AcademicでOverall 7.0を取得しました。
 

@@ -4,14 +4,14 @@ title: Mathematic Lesson in Junru Primary School in China.
 date: 2019-03-05
 categories: blog
 tags: [Math, Outreach, Global Experience]
-thumbnail: /assets/img/2019-03-05_Junru2.jpg
+thumbnail: /assets/img/thumbs/2019-03-05_Junru2.webp
 subcategory: experience
 lang: en
 ref: junru-lecture
 ---
 
-![Mathematic Lesson in Junru Primary School](/assets/img/2019-03-05_Junru1.jpg){: width="300px"}
-![Mathematic Lesson in Junru Primary School](/assets/img/2019-03-05_Junru2.jpg){: width="300px"}
+![Mathematic Lesson in Junru Primary School](/assets/img/2019-03-05_Junru1.webp){: width="300px"}
+![Mathematic Lesson in Junru Primary School](/assets/img/2019-03-05_Junru2.webp){: width="300px"}
 
 ### Mathematic Lesson in Junru Primary School
 Held A 40 minutes lecture about crease pattern topology to elementary school students in China.

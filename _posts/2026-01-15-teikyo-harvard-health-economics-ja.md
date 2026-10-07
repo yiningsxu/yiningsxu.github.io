@@ -4,14 +4,14 @@ title: 医療経済学の講義を修了し、修了証を取得しました（�
 date: 2026-01-15
 categories: blog
 tags: [Health Economics]
-thumbnail: /assets/img/2026-01-15_harvard_health_economics.jpeg
+thumbnail: /assets/img/thumbs/2026-01-15_harvard_health_economics.webp
 subcategory: academic
 lang: ja
 ref: harvard-health-economics
 permalink: /ja/blog/2026/harvard-health-economics/
 ---
 
-![医療経済学 ハーバード特別講義2026 修了証](/assets/img/2026-01-15_harvard_health_economics.jpeg){: width="300px"}
+![医療経済学 ハーバード特別講義2026 修了証](/assets/img/2026-01-15_harvard_health_economics.webp){: width="300px"}
 
 ### 帝京大学が開催したハーバード特別講義2026にて、[Alastair Gray教授](https://www.herc.ox.ac.uk/team/alastair-gray)（University of Oxford）による医療経済学の講義を修了しました。
 

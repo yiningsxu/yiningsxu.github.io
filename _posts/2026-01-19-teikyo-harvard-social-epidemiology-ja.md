@@ -4,14 +4,14 @@ title: 社会疫学の講義を修了し、修了証を取得しました（ハ�
 date: 2026-01-19
 categories: blog
 tags: [Social Epidemiology]
-thumbnail: /assets/img/2026-01-19_harvard_social_epidemiology.jpeg
+thumbnail: /assets/img/thumbs/2026-01-19_harvard_social_epidemiology.webp
 subcategory: academic
 lang: ja
 ref: harvard-social-epidemiology
 permalink: /ja/blog/2026/harvard-social-epidemiology/
 ---
 
-![社会疫学 ハーバード特別講義2026 修了証](/assets/img/2026-01-19_harvard_social_epidemiology.jpeg){: width="300px"}
+![社会疫学 ハーバード特別講義2026 修了証](/assets/img/2026-01-19_harvard_social_epidemiology.webp){: width="300px"}
 
 ### 帝京大学が開催したハーバード特別講義2026にて、[Ichiro Kawachi教授](https://hsph.harvard.edu/profile/ichiro-kawachi/)（Harvard T.H. Chan School of Public Health）による社会疫学の講義を修了しました。
 

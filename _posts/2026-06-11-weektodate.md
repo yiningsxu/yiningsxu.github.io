@@ -4,13 +4,13 @@ title: Developed WeekToDate, a static date conversion tool.
 date: 2026-06-11
 categories: blog
 tags: [Web App, LifeHack, Public Health]
-thumbnail: /assets/img/Date%20Conversion%20Tool%20en.png
+thumbnail: /assets/img/thumbs/date-conversion-tool-en.webp
 subcategory: hobbies
 lang: en
 ref: weektodate-post
 ---
 
-![WeekToDate](/assets/img/Date%20Conversion%20Tool%20en.png){: width="300px"}
+![WeekToDate](/assets/img/date-conversion-tool-en.webp){: width="300px"}
 
 ### I built "[WeekToDate](https://yiningsxu.github.io/WeekToDate/)" (date conversion tool)
 

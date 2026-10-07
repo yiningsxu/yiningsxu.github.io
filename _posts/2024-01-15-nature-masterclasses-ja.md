@@ -4,14 +4,14 @@ title: Nature Masterclassesのワークショップを修了しました。
 date: 2024-01-15
 categories: blog
 tags: [Nature Masterclasses]
-thumbnail: /assets/img/2025-01-15-Nature-Research-Academies-certificate.png
+thumbnail: /assets/img/thumbs/2025-01-15-Nature-Research-Academies-certificate.webp
 subcategory: academic
 lang: ja
 ref: nature-masterclasses
 permalink: /ja/blog/2024/nature-masterclasses/
 ---
 
-![Nature Masterclasses Expert Trainer-led workshop: Impressive Academic Presentations](/assets/img/2025-01-15-Nature-Research-Academies-certificate.png){: width="300px"}
+![Nature Masterclasses Expert Trainer-led workshop: Impressive Academic Presentations](/assets/img/2025-01-15-Nature-Research-Academies-certificate.webp){: width="300px"}
 
 ### Nature Masterclasses "Impressive Academic Presentations" workshop 修了
 

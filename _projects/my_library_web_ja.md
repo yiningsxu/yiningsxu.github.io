@@ -6,5 +6,5 @@ redirect: https://github.com/yiningsxu/my_library_web
 category: personal
 lang: ja
 ref: my_library_web
-img: /assets/img/my_library_screenshot.png
+img: /assets/img/my_library_screenshot.webp
 ---

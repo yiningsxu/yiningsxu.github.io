@@ -4,13 +4,13 @@ title: Completed a Nature Masterclasses Expert Trainer-led workshop
 date: 2024-01-15
 categories: blog
 tags: [Nature Masterclasses]
-thumbnail: /assets/img/2025-01-15-Nature-Research-Academies-certificate.png
+thumbnail: /assets/img/thumbs/2025-01-15-Nature-Research-Academies-certificate.webp
 subcategory: academic
 lang: en
 ref: nature-masterclasses
 ---
 
-![Nature Masterclasses Expert Trainer-led workshop: Impressive Academic Presentations](/assets/img/2025-01-15-Nature-Research-Academies-certificate.png){: width="300px"}
+![Nature Masterclasses Expert Trainer-led workshop: Impressive Academic Presentations](/assets/img/2025-01-15-Nature-Research-Academies-certificate.webp){: width="300px"}
 
 ### I completed a Nature Masterclasses Expert Trainer-led workshop: Impressive Academic Presentations.
 #### Nature Masterclasses "Impressive Academic Presentation" workshop 修了

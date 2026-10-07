@@ -39,7 +39,7 @@
       position: relative;
       width: 100%;
 
-      span {
+      .project__overlay {
         align-content: end;
         background: linear-gradient(180deg, rgba($dark-gray, 0.08), rgba($dark-gray, 0.84));
         color: #fff;
@@ -54,7 +54,7 @@
         text-align: left;
         transition: background 0.16s ease;
 
-        h1 {
+        h3 {
           color: #fff;
           font-size: 1rem;
           margin: 0;
@@ -70,7 +70,7 @@
 
       &:hover,
       &:focus {
-        span {
+        .project__overlay {
           background: linear-gradient(180deg, rgba($dark-gray, 0.12), rgba($dark-gray, 0.9));
         }
       }
@@ -260,6 +260,20 @@
   .research-grid,
   .research-secondary__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+// In the two-column layout, let an odd last card fill the row instead of
+// leaving an empty cell; image and text sit side by side.
+@media screen and (min-width: 720px) and (max-width: 1119px) {
+  .research-grid > .research-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+
+    .research-card__link {
+      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 }
 

@@ -4,14 +4,14 @@ title: 帝京SPH箱根合宿のAbstract & Manuscript Workshopに参加しまし�
 date: 2026-02-06
 categories: blog
 tags: [academic]
-thumbnail: /assets/img/2026-02-06_Teikyo_gasshuku.jpg
+thumbnail: /assets/img/thumbs/2026-02-06_Teikyo_gasshuku.webp
 subcategory: academic
 lang: ja
 ref: teikyo-gasshuku
 permalink: /ja/blog/2026/teikyo-gasshuku/
 ---
 
-![帝京SPH箱根合宿 Abstract & Manuscript Workshop](/assets/img/2026-02-06_Teikyo_gasshuku.jpg){: width="300px"}
+![帝京SPH箱根合宿 Abstract & Manuscript Workshop](/assets/img/2026-02-06_Teikyo_gasshuku.webp){: width="300px"}
 
 ### Intensive Abstract & Manuscript Workshop（Teikyo SPH Hakone Workshop 2026）に参加しました
 

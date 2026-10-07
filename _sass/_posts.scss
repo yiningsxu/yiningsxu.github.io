@@ -64,17 +64,27 @@
   border: 1px solid rgba($theme-color, 0.14);
   box-shadow: 0 16px 42px rgba($dark-gray, 0.08);
   overflow: hidden;
+  position: relative;
   transition: border-color 0.16s ease, transform 0.16s ease;
 }
 
-.post-card:hover {
+.post-card:hover,
+.post-card:focus-within {
   border-color: rgba($theme-color, 0.34);
   transform: translateY(-2px);
+}
+
+// Stretch the title link so the whole card (thumbnail included) is clickable.
+.post-card .post-title a::after {
+  content: "";
+  inset: 0;
+  position: absolute;
 }
 
 .post-thumbnail {
   aspect-ratio: 1.35;
   display: block;
+  height: auto;
   object-fit: cover;
   width: 100%;
 }
@@ -91,7 +101,8 @@
   font-weight: 800;
 }
 
-.post-card .post-title a:hover {
+.post-card:hover .post-title a,
+.post-card .post-title a:focus-visible {
   color: $theme-color;
   text-decoration: none;
 }

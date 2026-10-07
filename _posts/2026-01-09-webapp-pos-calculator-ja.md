@@ -4,14 +4,14 @@ title: スマートフォンで使える「スマートレジ電卓」を作り�
 date: 2026-01-09
 categories: blog
 tags: [Web App, LifeHack]
-thumbnail: /assets/img/2026-01-09_poscalculator.png
+thumbnail: /assets/img/thumbs/2026-01-09_poscalculator.webp
 subcategory: hobbies
 lang: ja
 ref: pos-calculator-post
 permalink: /ja/blog/2026/webapp-pos-calculator/
 ---
 
-![POS Calculator](/assets/img/2026-01-09_poscalculator.png){: width="300px"}
+![POS Calculator](/assets/img/2026-01-09_poscalculator.webp){: width="300px"}
 
 ### スマホを“簡易POS”にする「スマートレジ電卓」を作りました
 

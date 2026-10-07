@@ -4,13 +4,13 @@ title: Finished a course in Social Epidemiology and received a certificate. (Har
 date: 2026-01-19
 categories: blog
 tags: [Social Epidemiology]
-thumbnail: /assets/img/2026-01-19_harvard_social_epidemiology.jpeg
+thumbnail: /assets/img/thumbs/2026-01-19_harvard_social_epidemiology.webp
 subcategory: academic
 lang: en
 ref: harvard-social-epidemiology
 ---
 
-![Social Epidemiology, Harvard Special Session 2026, Certificate of Completion](/assets/img/2026-01-19_harvard_social_epidemiology.jpeg){: width="300px"}
+![Social Epidemiology, Harvard Special Session 2026, Certificate of Completion](/assets/img/2026-01-19_harvard_social_epidemiology.webp){: width="300px"}
 
 ### I completed Social Epidemiology Lecture by Professor [Ichiro Kawachi](https://hsph.harvard.edu/profile/ichiro-kawachi/) (Harvard T.H. Chan School of Public Health) in the Harvard Special Session 2026 held by Teikyo University.
 #### 社会疫学, ハーバード特別講義2026, 帝京大学 修了

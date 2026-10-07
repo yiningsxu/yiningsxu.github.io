@@ -42,45 +42,8 @@ nav_label: プロジェクト
 ## 個人プロジェクト
 
 <div class="projects-grid">
-{% for project in site.projects %}
-{% if project.category == 'personal' and project.lang == page.lang %}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank" rel="noopener noreferrer">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | relative_url }}" alt="{{ project.title }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ project.url | relative_url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | relative_url }}" alt="{{ project.title }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
+  {% assign personal_projects = site.projects | where: 'category', 'personal' | where: 'lang', page.lang %}
+  {% for project in personal_projects %}
+    {% include personal-project-card.html project=project %}
+  {% endfor %}
 </div>

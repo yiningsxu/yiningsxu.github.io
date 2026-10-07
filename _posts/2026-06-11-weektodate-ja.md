@@ -4,14 +4,14 @@ title: 日付変換ツール「WeekToDate」を作りました。
 date: 2026-06-11
 categories: blog
 tags: [Web App, LifeHack, Public Health]
-thumbnail: /assets/img/Date%20Conversion%20Tool%20jp.png
+thumbnail: /assets/img/thumbs/date-conversion-tool-jp.webp
 subcategory: hobbies
 lang: ja
 ref: weektodate-post
 permalink: /ja/blog/2026/weektodate/
 ---
 
-![WeekToDate](/assets/img/Date%20Conversion%20Tool%20jp.png){: width="300px"}
+![WeekToDate](/assets/img/date-conversion-tool-jp.webp){: width="300px"}
 
 ### 報告週・西暦日付・和暦を変換できる「WeekToDate」を作りました
 

@@ -5,7 +5,7 @@ name: Yining S Xu
 native_name: "許 以寧"
 email: ineikyos@gmail.com
 description: > # this means to ignore newlines until "url:"
-  Digital Scholarship and libraries.
+  Yining Xu, a doctoral student at Kyoto University, researching data science, child welfare, and public health.
 footer_text: >
   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 footer_text_ja: >
@@ -52,7 +52,7 @@ disqus_shortname: # put your disqus shortname
 # Optional features
 show_social_icons: false
 enable_anchorjs: false
-enable_katex: true
+enable_katex: false # set to true to render math with KaTeX
 future: true
 
 # -----------------------------------------------------------------------------
@@ -81,18 +81,30 @@ highlighter: rouge
 
 # Includes & excludes
 include: ["_pages"]
-exclude: [vendor, node_modules]
+exclude:
+  - vendor
+  - node_modules
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - requirements.txt
 
 # Plug-ins
 plugins:
   - jekyll-email-protect
+  - jekyll-sitemap
   - jekyll-paginate
   - jekyll/scholar
   - jemoji
 
 # Jekyll-Scholar
 scholar:
-  last_name: Keener
+  last_name: Xu
 
   style: apa
   locale: en

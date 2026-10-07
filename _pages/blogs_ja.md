@@ -12,72 +12,16 @@ nav_label: 活動記録
 
 ## 学術活動
 
-<div class="posts-grid">
-  {% for post in site.posts %}
-    {% if post.subcategory == 'academic' and post.lang == page.lang %}
-      <div class="post-card">
-        {% if post.thumbnail %}
-          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
-        {% endif %}
-        <div class="post-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </div>
-        <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+{% include post-grid.html subcategory='academic' %}
 
 ## 国際経験
 
-<div class="posts-grid">
-  {% for post in site.posts %}
-    {% if post.subcategory == 'experience' and post.lang == page.lang %}
-      <div class="post-card">
-        {% if post.thumbnail %}
-          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
-        {% endif %}
-        <div class="post-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </div>
-        <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+{% include post-grid.html subcategory='experience' %}
 
 ## 個人制作
 
-<div class="posts-grid">
-  {% for post in site.posts %}
-    {% if post.subcategory == 'hobbies' and post.lang == page.lang %}
-      <div class="post-card">
-        {% if post.thumbnail %}
-          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
-        {% endif %}
-        <div class="post-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </div>
-        <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+{% include post-grid.html subcategory='hobbies' %}
 
 ## 受賞・奨学金
 
-<div class="posts-grid">
-  {% for post in site.posts %}
-    {% if post.subcategory == 'award' and post.lang == page.lang %}
-      <div class="post-card">
-        {% if post.thumbnail %}
-          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}" class="post-thumbnail">
-        {% endif %}
-        <div class="post-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </div>
-        <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+{% include post-grid.html subcategory='award' %}
