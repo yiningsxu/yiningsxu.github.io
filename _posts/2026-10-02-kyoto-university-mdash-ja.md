@@ -5,6 +5,7 @@ date: 2026-10-02
 categories: blog
 tags: [Kyoto University, Data Science, AI, MDASH]
 thumbnail: /assets/img/thumbs/2026_DS_badge.webp
+thumbnail_fit: contain
 subcategory: academic
 lang: ja
 ref: kyoto-university-mdash

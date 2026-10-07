@@ -8,6 +8,7 @@ ref: projects
 nav: true
 nav_order: 2
 nav_label: Projects
+wide: true
 ---
 
 <div class="research-projects">

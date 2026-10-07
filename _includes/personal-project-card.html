@@ -1,28 +1,33 @@
 {% assign personal_project = include.project %}
-<div class="project">
-  <div class="thumbnail">
-    <a
-      {% if personal_project.redirect %}
-        href="{{ personal_project.redirect }}" target="_blank" rel="noopener noreferrer"
-      {% else %}
-        href="{{ personal_project.url | relative_url }}"
-      {% endif %}
-    >
+<article class="project">
+  <a
+    class="project__link"
+    {% if personal_project.redirect %}
+      href="{{ personal_project.redirect }}" target="_blank" rel="noopener noreferrer"
+    {% else %}
+      href="{{ personal_project.url | relative_url }}"
+    {% endif %}
+  >
+    <div class="project__media">
       {% if personal_project.img %}
         <img
-          class="thumbnail"
           src="{{ personal_project.img | relative_url }}"
           alt=""
+          width="1600"
+          height="1000"
           loading="lazy"
           decoding="async"
         >
       {% else %}
-        <div class="thumbnail blankbox"></div>
+        <div class="blankbox"></div>
       {% endif %}
-      <div class="project__overlay">
-        <h3>{{ personal_project.title }}</h3>
-        <p>{{ personal_project.description }}</p>
-      </div>
-    </a>
-  </div>
-</div>
+    </div>
+    <div class="project__body">
+      <h3 class="project__title">
+        {{- personal_project.title -}}
+        {%- if personal_project.redirect %} <span aria-hidden="true">↗</span>{% endif -%}
+      </h3>
+      <p class="project__description">{{ personal_project.description }}</p>
+    </div>
+  </a>
+</article>

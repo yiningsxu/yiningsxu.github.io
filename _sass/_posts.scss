@@ -89,6 +89,15 @@
   width: 100%;
 }
 
+// For thumbnails that must not be cropped (badges, logos): show the whole image.
+// Opt in per post with `thumbnail_fit: contain` in the front matter.
+.post-thumbnail--contain {
+  background: rgba($theme-color, 0.05);
+  box-sizing: border-box;
+  object-fit: contain;
+  padding: 0.9rem;
+}
+
 .post-card .post-title {
   font-size: 0.98rem;
   line-height: 1.35;

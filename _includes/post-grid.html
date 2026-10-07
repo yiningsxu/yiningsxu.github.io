@@ -6,7 +6,7 @@
         <img
           src="{{ post.thumbnail | relative_url }}"
           alt=""
-          class="post-thumbnail"
+          class="post-thumbnail{% if post.thumbnail_fit == 'contain' %} post-thumbnail--contain{% endif %}"
           width="720"
           height="533"
           loading="lazy"

@@ -1,81 +1,84 @@
 .projects-grid {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin: 1.4rem 0 2.6rem;
+  margin: 1.6rem 0 2.6rem;
 }
 
 .project {
+  min-width: 0;
+}
+
+.project__link {
+  background: #fff;
+  border: 1px solid rgba($theme-color, 0.14);
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba($dark-gray, 0.05);
   box-sizing: border-box;
-  height: auto;
-  padding: 0;
-  width: 100%;
+  color: $dark-gray;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
 
-  .thumbnail {
-    border-radius: $border-radius;
-    box-shadow: 0 16px 42px rgba($dark-gray, 0.1);
-    overflow: hidden;
-    height: auto;
-    width: 100%;
+  &:hover,
+  &:focus-visible {
+    border-color: rgba($theme-color, 0.34);
+    box-shadow: 0 12px 28px rgba($dark-gray, 0.09);
+    text-decoration: none;
+    transform: translateY(-2px);
 
-    img {
-      aspect-ratio: 1.35;
-      display: block;
-      height: 100%;
-      left: 0;
-      object-fit: cover;
-      position: relative;
-      top: 0;
-      width: 100%;
-    }
-
-    a {
-      background-color: rgba(#fff, 0.78);
-      border: 1px solid rgba($theme-color, 0.14);
-      border-radius: $border-radius;
-      display: block;
-      float: left;
-      height: auto;
-      position: relative;
-      width: 100%;
-
-      .project__overlay {
-        align-content: end;
-        background: linear-gradient(180deg, rgba($dark-gray, 0.08), rgba($dark-gray, 0.84));
-        color: #fff;
-        display: grid;
-        opacity: 1;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        padding: 1rem;
-        text-align: left;
-        transition: background 0.16s ease;
-
-        h3 {
-          color: #fff;
-          font-size: 1rem;
-          margin: 0;
-        }
-
-        p {
-          color: rgba(#fff, 0.82);
-          font-size: 0.82rem;
-          line-height: 1.45;
-          margin: 0.4rem 0 0;
-        }
-      }
-
-      &:hover,
-      &:focus {
-        .project__overlay {
-          background: linear-gradient(180deg, rgba($dark-gray, 0.12), rgba($dark-gray, 0.9));
-        }
-      }
+    .project__title {
+      color: $theme-color;
     }
   }
+
+  &:focus-visible {
+    outline: 3px solid rgba($theme-color, 0.5);
+    outline-offset: 3px;
+  }
+}
+
+// Screenshots sit in a tinted, padded frame so they don't run into the card edges.
+.project__media {
+  background: rgba($theme-color, 0.05);
+  border-bottom: 1px solid rgba($theme-color, 0.1);
+  padding: 1.25rem 1.25rem 0;
+
+  img,
+  .blankbox {
+    aspect-ratio: 16 / 10;
+    border: 1px solid rgba($dark-gray, 0.08);
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    object-position: top center;
+    width: 100%;
+  }
+}
+
+.project__body {
+  padding: 1.35rem 1.5rem 1.6rem;
+}
+
+.project .project__title {
+  color: $dark-gray;
+  font-size: 1.15rem;
+  line-height: 1.45;
+  margin: 0;
+  transition: color 0.16s ease;
+}
+
+.project .project__description {
+  color: $mid-gray;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  margin: 0.55rem 0 0;
 }
 
 .blankbox {
@@ -93,14 +96,8 @@
   }
 }
 
-// Let the research section use the wrapper's width without changing other pages
-// or the existing personal-project grid.
 .research-projects {
-  box-sizing: border-box;
-  margin: 0 0 3rem 50%;
-  max-width: 1020px;
-  transform: translateX(-50%);
-  width: calc(100vw - 100px);
+  margin-bottom: 3rem;
 
   > h2 {
     margin-bottom: 1.5rem;
@@ -284,16 +281,13 @@
 }
 
 @include media-query($on-palm) {
-  .research-projects {
-    width: calc(100vw - 40px);
-  }
-
   .research-primary {
     border-radius: 18px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .project__link,
   .research-card__link {
     transition: none;
   }
