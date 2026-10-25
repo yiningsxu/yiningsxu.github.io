@@ -215,7 +215,7 @@ layout: default
           </div>
           <div class="home-publication__body">
             <h3>
-              <a href="{{ publication.doi | escape }}">{{ publication.title | escape }}</a>
+              {% if publication.doi %}<a href="{{ publication.doi | escape }}">{{ publication.title | escape }}</a>{% else %}{{ publication.title | escape }}{% endif %}
             </h3>
             <div class="home-publication__authors">
               {{ publication.authors | markdownify }}

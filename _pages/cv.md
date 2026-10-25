@@ -12,7 +12,7 @@ nav_label: CV
 
 You can download a PDF copy of my CV here:
 
-- [Curriculum Vitae (detailed)]({{ '/assets/pdf/cv.pdf' | relative_url }}) (Last updated: 2026-02-17)
+- [Curriculum Vitae (detailed)]({{ '/assets/pdf/cv.pdf' | relative_url }}) (Last updated: 2026-10-25)
 - Curriculum Vitae (concise) — coming soon
 - [Curriculum Vitae (Web Version)]({{ '/cv/cv_detailed/' | relative_url }})
 - [Research achievements (Web Version)]({{ '/achievements/' | relative_url }})

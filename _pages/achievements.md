@@ -14,27 +14,25 @@ nav_label: Achievements
 
 ### Accepted
 
-#### Infectious Diseases
-
-{% include accepted-publications.md %}
-
-### Under Review
-
 #### Child Maltreatment
 
-- (First author) **Xu YS**, et al. **Oral health differences across maltreatment categories among children in temporary protection facilities in Japan: a retrospective cross-sectional study.** *BMC Public Health*.
+{% include accepted-publications.md category="maltreatment" %}
+
+#### Infectious Diseases
+
+{% include accepted-publications.md category="infectious" %}
+
+### Under Review
 
 #### Infectious Diseases
 
 - (Second author) Tu S, **Xu YS**, et al. (2026). **Information sources, vaccine literacy, and intention to receive a COVID-19 booster dose: a cross-sectional online survey in Okinawa, Japan.** *Vaccine: X*.
-- (Second author) Kozuka M, **Xu YS**, et al. (2026). **Traveler-Derived Importation Risk Underestimates Regional Disease Activity: Evidence from Okinawa, Japan.** *Journal of Infection and Public Health*.
 
 ### Manuscripts in Preparation
 
 #### Child Maltreatment
 
-- (First author) **Xu YS**, et al. **Association Between Oral Health Indicators and Abuse Typologies.** Target journal: *BMC Public Health*.
-- (First author) **Xu YS**, et al. **Prevalence of Early Childhood Caries and Associated Factors among Preschool Children in Temporary Protective Custody.** Target journal: *BMC Oral Health*.
+- (First author) **Xu YS**, et al. **Prevalence of Early Childhood Caries and Associated Factors among Preschool Children in Temporary Protective Custody.** Target journal: *International Journal of Paediatric Dentistry*.
 
 #### Infectious Diseases
 
@@ -51,6 +49,8 @@ nav_label: Achievements
 - Domestic oral presentation, 84th Annual Meeting of the Japanese Society of Public Health, **Report on post-disaster infectious disease importation risk using mobility data (first report)**, October 2025.
 - Domestic oral presentation, 31st Annual Meeting of the Japanese Society for Prevention of Child Abuse and Neglect, **Understanding maltreatment typologies through oral health conditions among children in temporary protection**, November 2025.
 - Domestic co-presenter oral presentation, 31st Annual Meeting of the Japanese Society for Prevention of Child Abuse and Neglect, **Lifestyle factors affecting oral health conditions among maltreated children: toward supporting child maltreatment risk assessment**, November 2025.
+- Domestic poster presentation, 85th Annual Meeting of the Japanese Society of Public Health, **Prevalence of early childhood caries among children in temporary protection**, October 2026 (scheduled).
+- Domestic oral presentation, 32nd Annual Meeting of the Japanese Society for Prevention of Child Abuse and Neglect, **Oral health needs by developmental stage and main reason for protection among children admitted to temporary protection facilities**, November 2026 (scheduled).
 
 ## Collaborative Research and Funded Projects
 

@@ -14,27 +14,25 @@ nav_label: 業績
 
 ### 採択済
 
-#### 感染症関連
-
-{% include accepted-publications.md %}
-
-### 査読中
-
 #### 児童虐待関連
 
-- （筆頭著者）**Xu YS**, et al. **Oral health differences across maltreatment categories among children in temporary protection facilities in Japan: a retrospective cross-sectional study.** *BMC Public Health*.
+{% include accepted-publications.md category="maltreatment" %}
+
+#### 感染症関連
+
+{% include accepted-publications.md category="infectious" %}
+
+### 査読中
 
 #### 感染症関連
 
 - （第二著者）Tu S, **Xu YS**, et al. (2026). **Information sources, vaccine literacy, and intention to receive a COVID-19 booster dose: a cross-sectional online survey in Okinawa, Japan.** *Vaccine: X*.
-- （第二著者）Kozuka M, **Xu YS**, et al. (2026). **Traveler-Derived Importation Risk Underestimates Regional Disease Activity: Evidence from Okinawa, Japan.** *Journal of Infection and Public Health*.
 
 ### 執筆中
 
 #### 児童虐待関連
 
-- （筆頭著者）**Xu YS**, et al. **Association Between Oral Health Indicators and Abuse Typologies.** Target journal: *BMC Public Health*.
-- （筆頭著者）**Xu YS**, et al. **Prevalence of Early Childhood Caries and Associated Factors among Preschool Children in Temporary Protective Custody.** Target journal: *BMC Oral Health*.
+- （筆頭著者）**Xu YS**, et al. **Prevalence of Early Childhood Caries and Associated Factors among Preschool Children in Temporary Protective Custody.** Target journal: *International Journal of Paediatric Dentistry*.
 
 #### 感染症関連
 
@@ -51,6 +49,8 @@ nav_label: 業績
 - （国内学会・口頭発表）第84回日本公衆衛生学会総会, **人流データを用いた震災後の感染症流入リスクに関する報告（第一報）**, 2025年10月.
 - （国内学会・口頭発表）日本子ども虐待防止学会 第31回学術集会ほっかいどう大会, **一時保護児の口腔内状況から読み解く虐待類型**, 2025年11月.
 - （国内学会・共同演者・口頭発表）日本子ども虐待防止学会 第31回学術集会ほっかいどう大会, **被虐待児の口腔内状況に影響する生活習慣の調査 子ども虐待のリスク判定の一助として**, 2025年11月.
+- （国内学会・ポスター発表）第85回日本公衆衛生学会総会, **一時保護児における乳幼児う蝕の有病状況**, 2026年10月（発表予定）.
+- （国内学会・口頭発表）日本子ども虐待防止学会 第32回学術集会おおさか大会, **一時保護所入所児における発達段階および主たる保護理由別にみた口腔保健ニーズ**, 2026年11月（発表予定）.
 
 ## 共同研究・競争的資金等の研究課題
 

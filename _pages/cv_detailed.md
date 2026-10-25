@@ -119,7 +119,7 @@ April 2017 **Study abroad in Japan**
 
 **Project 3 (Planned). National Child Abuse Registry Analysis**
 
-- **Role:** Analyst as a member of the Research Committee, Japanese Society of Child Abuse and Neglect Medicine.
+- **Role:** Analyst as a member of the Research Committee of a national academic society on child abuse medicine.
 - **Scope:** Multi-center case aggregation to expand evidence on risk factors, clinical findings, responses, and outcomes.
 - **Objective:** Develop generalizable evidence including rare/complex cases that are difficult to capture in single-site studies.
 
@@ -160,7 +160,7 @@ April 2017 **Study abroad in Japan**
 **Project 5: Study on the Current Status of Child Abuse Response and the Impact of Educational Interventions for Firefighters, Hospital Paramedics, and Paramedic Students**
 
 - **Role:** Co-Investigator (Questionnaire Design, Data analysis)
-- **Collaborating Institutions:** Tokyo Medical University (Lead)
+- **Collaborating Institutions:** T University (Lead), Kyoto University
 
 **Project 6 (Planned). Wearable Biosignal Analytics for Stress Index Estimation**
 
@@ -265,6 +265,20 @@ Apr 2024 – Mar 2025
 - Estimated interactions among infectious diseases (e.g., interference, co-epidemics) from time-series data.
 - Applied EDM-based causal inference approaches to identify directional links in complex dynamical systems.
 
+Apr 2025 – present
+
+**Research Fellow (JST SPRING), Division of Graduate Studies, Kyoto University, Kyoto, Japan**
+
+Apr 2025 – present
+
+**Special Researcher, Teikyo University Graduate School of Public Health, Tokyo, Japan**
+
+Aug 2026 – Sep 2026
+
+**Research Intern, Research and Development, NEC Corporation, Japan**
+
+- Conducted research on the application of large language models in healthcare.
+
 ## Volunteer Activities
 
 29-31 March 2019
@@ -297,7 +311,8 @@ Apr 2024 – Mar 2025
 
 - **Study Design**: Observational study design (cross-sectional, time-series, regional comparisons); operationalization of exposures/outcomes
 - **Statistical Analysis**: Descriptive statistics, group comparisons, regression modeling (e.g., logistic), multivariable analysis; interpretation of effect sizes and CIs
-- **Machine Learning**: Classification modeling (e.g., Random Forest), feature engineering, cross-validation, model interpretability (e.g., SHAP), LLM
+- **Machine Learning**: Classification modeling (e.g., Random Forest), feature engineering, cross-validation, model interpretability (e.g., SHAP)
+- **Large Language Models & NLP**: LLM-based information extraction; converting long-form unstructured text into structured, analysis-ready data
 - **Time-Series & Spatial/Regional Analysis**: Quantifying temporal trends and regional heterogeneity; accounting for seasonality and long-term trends
 - **Data Management**: Cleaning and preprocessing administrative/clinical datasets; missing data/outlier handling; reproducible analysis pipelines
 - **Research Ethics & Governance**: Handling sensitive data; familiarity with IRB/ethics processes and data-sharing governance
