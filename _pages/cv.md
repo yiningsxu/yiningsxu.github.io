@@ -19,9 +19,7 @@ You can download a PDF copy of my CV here:
 ## Japanese Documents
 
 - Japanese resume — coming soon
-- [Japanese research achievements list]({{ '/assets/pdf/research_cv_japanese.pdf' | relative_url }}) (Last updated: 2026-05-11)
 
 ## Research Documents
 
-- [Papers, Presentations, Joint Research, Grants (.pdf; In Japanese)]({{ '/assets/pdf/research_open.pdf' | relative_url }})
 - [researchmap](https://researchmap.jp/inei_yining)

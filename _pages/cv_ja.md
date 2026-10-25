@@ -19,9 +19,7 @@ PDF版のCVおよび関連資料はこちらからダウンロードできます
 ## 日本語資料
 
 - 履歴書（準備中）
-- [研究業績リスト]({{ '/assets/pdf/research_cv_japanese.pdf' | relative_url }}) (最終更新: 2026-05-11)
 
 ## 研究関連資料
 
-- [論文・発表・共同研究・研究費一覧 (.pdf)]({{ '/assets/pdf/research_open.pdf' | relative_url }})
 - [researchmap](https://researchmap.jp/inei_yining)
