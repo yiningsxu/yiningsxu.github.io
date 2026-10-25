@@ -12,8 +12,9 @@ nav_label: CV
 
 PDF版のCVおよび関連資料はこちらからダウンロードできます。
 
-- [Curriculum Vitae（PDF版）]({{ '/assets/pdf/cv.pdf' | relative_url }}) (最終更新: 2026-10-25)
-- [Curriculum Vitae（Web版）]({{ '/ja/cv/cv_detailed/' | relative_url }}) — PDF版と同じ内容
+- [Curriculum Vitae（PDF版・日本語）]({{ '/assets/pdf/cv_ja.pdf' | relative_url }}) (最終更新: 2026-10-25)
+- [Curriculum Vitae（PDF版・英語）]({{ '/assets/pdf/cv.pdf' | relative_url }}) (最終更新: 2026-10-25)
+- [Curriculum Vitae（Web版）]({{ '/ja/cv/cv_detailed/' | relative_url }}) — 日本語PDF版と同じ内容
 - [Web版 研究業績]({{ '/ja/achievements/' | relative_url }})
 
 ## 日本語資料

@@ -12,7 +12,7 @@ nav: false
 〒606-8501 京都府京都市左京区吉田本町  
 [ineikyos@gmail.com](mailto:ineikyos@gmail.com) · [yiningsxu.github.io](https://yiningsxu.github.io/) · [github.com/yiningsxu](https://github.com/yiningsxu) · [researchmap.jp/inei_yining](https://researchmap.jp/inei_yining)
 
-[PDF版をダウンロード]({{ '/assets/pdf/cv.pdf' | relative_url }})
+[PDF版をダウンロード]({{ '/assets/pdf/cv_ja.pdf' | relative_url }})（[英語版]({{ '/assets/pdf/cv.pdf' | relative_url }})）
 
 ## 目次
 * ToC
@@ -152,7 +152,7 @@ T大学（代表）、京都大学
 
 - 研究分担者：質問票設計、データ解析
 
-- **予定:** 子ども虐待医学分野の学会 研究委員会メンバーとして、全国児童虐待レジストリの解析を担当。
+- **予定:** 子ども虐待分野の学会 研究委員会メンバーとして、全国児童虐待レジストリの解析を担当。
 
 ### 感染症疫学
 
@@ -170,7 +170,7 @@ T大学（代表）、京都大学
 
 ## 学会活動
 
-- 子ども虐待医学分野の学会 研究委員会委員（解析担当）
+- 子ども虐待分野の学会 研究委員会委員（解析担当）
 
 ## 教育・アウトリーチ
 
