@@ -10,7 +10,7 @@ nav: false
 
 **Yining Xu** · 京都大学大学院 総合生存学館 博士課程  
 〒606-8501 京都府京都市左京区吉田本町  
-[ineikyos@gmail.com](mailto:ineikyos@gmail.com) · [yiningsxu.github.io](https://yiningsxu.github.io/) · [github.com/yiningsxu](https://github.com/yiningsxu) · [researchmap.jp/inei_yining](https://researchmap.jp/inei_yining)
+ineikyos＠gmail.com · [yiningsxu.github.io](https://yiningsxu.github.io/) · [github.com/yiningsxu](https://github.com/yiningsxu) · [researchmap.jp/inei_yining](https://researchmap.jp/inei_yining)
 
 [PDF版をダウンロード]({{ '/assets/pdf/cv_ja.pdf' | relative_url }})（[英語版]({{ '/assets/pdf/cv.pdf' | relative_url }})）
 
