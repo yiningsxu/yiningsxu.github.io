@@ -10,7 +10,7 @@ nav: false
 
 **Yining Xu** · PhD Candidate, Graduate School of Advanced Integrated Studies in Human Survivability, Kyoto University  
 Yoshida-honmachi, Sakyo-ku, Kyoto 606-8501, Japan  
-[ineikyos@gmail.com](mailto:ineikyos@gmail.com) · [yiningsxu.github.io](https://yiningsxu.github.io/) · [github.com/yiningsxu](https://github.com/yiningsxu) · [researchmap.jp/inei_yining](https://researchmap.jp/inei_yining)
+ineikyos＠gmail.com · [yiningsxu.github.io](https://yiningsxu.github.io/) · [github.com/yiningsxu](https://github.com/yiningsxu) · [researchmap.jp/inei_yining](https://researchmap.jp/inei_yining)
 
 [Download PDF version]({{ '/assets/pdf/cv.pdf' | relative_url }})
 
